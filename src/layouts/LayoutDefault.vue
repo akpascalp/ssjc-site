@@ -1,10 +1,10 @@
 <template>
     <div class="h-full">
-        <SiteFooter />
         <SiteSidebar />
-        <main class="pt-16 pb-16 h-screen h-screen-ios overflow-y-auto md:pl-56 xl:pl-56 min-h-0">
+        <main class="pl-16">
             <router-view />
         </main>
+        <SiteFooter />
     </div>
 </template>
 
