@@ -1,7 +1,7 @@
 <template>
     <div class="h-full">
         <SiteSidebar />
-        <main class="pl-16">
+        <main class="pl-20">
             <router-view />
         </main>
         <SiteFooter />

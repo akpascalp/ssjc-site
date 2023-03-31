@@ -1,14 +1,239 @@
 <template>
   <div class="relative h-screen bg-cyan-50">
-    <video autoplay muted loop class="h-screen object-cover">
+    <!-- <video autoplay muted loop class="h-screen object-cover">
       <source src="@/assets/test-video.mp4" type="video/mp4">
-    </video>
-    <p class="absolute top-[300px] left-[128px] text-[24px] text-white font-barlow">Be better everyday</p>
-    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-barlow">Dojo House of SSJC</p>
+    </video> -->
+    <img src="@/assets/img_1.png" class="w-screen object-cover" />
+    <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-barlow">A School Of Life</p>
+    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-barlow">DOJO HOUSE OF SSJC</p>
     <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-barlow">Scroll down to learn more</p>
   </div>
+
+  <br class="py-6" />
+
+  <!-- Our Concept -->
+
+  <div>
+    <img src="@/assets/our_concept.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
+    <!-- Our Concept
+    </div> -->
+    <div class="grid grid-cols-3 pt-2">
+      <p class="font-barlow text-[16px] col-start-2 mr-32">
+        <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact, it
+          is a means for personal cultural attainment." Kano Jigoro</i>
+      </p>
+      <div class="-ml-20">
+        <p class="font-barlow text-[20px] pr-16 pb-4">
+          Inspired by the Dojo essence, <b>Dojo House</b> of SSJC is a venue for learning, research, and the practice of
+          martial arts.
+        </p>
+        <p class="font-barlow text-[20px] pr-16 pb-4">
+          It is conceived and crafted according to traditional Japanese dojo codes and meets the French Judo Federation’s
+          safety standards.
+        </p>
+        <p class="font-barlow text-[20px] pr-16 pb-16">
+          <b>Dojo House</b> is a zen haven for practicing martial arts and for self-improvement, open to all ages (kids
+          and adults) and to all levels of practitioners: a <i>place for immersive learning</i>.
+        </p>
+        <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+          Book A Session
+        </button>
+      </div>
+      <img src="@/assets/img_2.png" class="col-start-2 col-span-2 pr-12 pt-20 pb-24" />
+    </div>
+    <div class="pb-24">
+      <div class="bg-[#F6F6F6] mx-24 py-24 grid grid-cols-3">
+        <img src="@/assets/citation.png" class="mx-24" />
+        <div>
+          <p class="font-barlow text-[18px] font-bold col-span-2">
+            A dojo represents, in its very essence, an exceptional, energetic space: a sacred location.
+            It is still a place where we respect the moral values of judo and the tradition of the original martial art,
+            as defined by Kano Jigoro shihan in 1882.
+            <br />
+            <br />
+            The dojo is a place where the student, as well as the instructor, can develop their personality and discover a
+            step by step art of living.
+            <br />
+            <br />
+            By pushing open the doors of the dojo, the practitioner leaves their daily life outside to become enriched
+            internally, with a free spirit, with the content of the teaching.
+          </p>
+          <p class="font-barlow pt-16">
+            IJF
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="@/assets/img_3.png" class="w-screen object-cover px-24 py-12" />
+  </div>
+
+  <br class="py-6" />
+
+  <!-- The Martial Art School -->
+
+  <div>
+    <img src="@/assets/martial_art_school.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
+    <!-- Our Concept
+    </div> -->
+    <div class="grid grid-cols-3 pt-2">
+      <p class="font-barlow text-[16px] col-start-2 mr-32">
+        <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
+          his generation, we make a contribution extending a hundred generations to come." Kano Jigoro</i>
+      </p>
+      <div class="-ml-20">
+        <p class="font-barlow text-[20px] pr-16 pb-4">
+          Founded in 2020 by Soraya and Benjamin
+          Nguyen, former high-level judo athletes,
+          Dojo House is a place where one can not
+          only practice martial arts, but also work,
+          study and socialize.
+        </p>
+        <p class="font-barlow text-[20px] pr-16 pb-4">
+          The aim of our project is to combine work and
+          sports as a lifestyle. This is the discipline that
+          we've applied from a young age as student
+          athletes and later on as competitors who
+          also held challenging jobs.
+        </p>
+        <p class="font-barlow text-[20px] pr-16 pb-16">
+          Dojo House is a unique place to make improvements every day in your martial arts.
+        </p>
+        <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+          SEE ALL DISCIPLINES
+        </button>
+      </div>
+      <div>TODO CAROUSEL</div>
+    </div>
+  </div>
+
+  <br class="py-6" />
+
+  <!-- Judo -->
+
+  <div>
+    <div class="static">
+      <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
+        <img src="@/assets/img_4.png" class="pt-8 pb-8 pl-24" />
+        <div class="col-span-2">
+          <img src="@/assets/Judo.png" class="pt-4 pb-24" />
+          <p class="font-barlow text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
+            "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
+          </p>
+          <hr class="py-6 pr-12" />
+          <p class="font-barlow text-[18px] pr-16 pb-16 mr-12">
+            Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
+            also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
+            firmly withstood the trials of life.
+            Respect, honesty, self-control, friendship, courtesy, honor, courage and modesty - the eight values of the
+            judo
+            moral code are taught to every judoka from the first time they enter a dojo. This code is entirely
+            incompatible
+            with procedures that would go against the spirit of the sport.
+          </p>
+          <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+            Book A Session
+          </button>
+        </div>
+      </div>
+      <img src="@/assets/img_5.png" class="relative -top-64 left-36 -mb-48" />
+
+      <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
+        <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button class="font-barlow text-[22px] text-white ml-72 px-8 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+            Contact Us
+          </button>
+      </div>
+
+    </div>
+  </div>
+
+  <br class="py-6" />
+
+  <!-- The Founders -->
+
+  <div>
+    <img src="@/assets/founders.png" class="pt-28 pb-24 pl-24" />
+
+    <!-- Founder 1 -->
+
+    <div class="grid pr-12">
+      <div class="grid grid-cols-2">
+        <div class="font-barlow text-[36px] font-bold pl-24 w-3">Benjamin Nguyen</div>
+        <div>
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">National Senior Championships Vietnam</p>
+            <p class="font-barlow text-[18px] pb-2">1st: Vietnam Championships, Vung Tau. Team. 2022</p>
+          </div>
+          <hr class="pb-2">
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">National Cadet Championships</p>
+            <p class="font-barlow text-[18px] pb-2">1st: French U17 Championships, Paris. U55. 2002</p>
+          </div>
+          <hr class="pb-2">
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">National Senior Championships</p>
+            <p class="font-barlow text-[18px] pb-2">3rd: French Championships, Paris. U55. 2008</p>
+            <p class="font-barlow text-[18px] pb-2">3rd: French Championships, Clermont Ferrand. U60. 2007</p>
+          </div>
+          <hr class="pb-2">
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">International Tournaments</p>
+            <p class="font-barlow text-[18px] pb-2">2nd: Coupe Paris Kyoto. Open M.U66 2009</p>
+            <p class="font-barlow text-[18px] pb-2">1st: Coupe Paris Tokyo. U66. 2009</p>
+            <p class="font-barlow text-[18px] pb-2">1st: International U20 Tournament Open Sens U60. 2005</p>
+            <p class="font-barlow text-[18px] pb-2">3rd: Tournoi European Cadet Strasbourg U55. 2001</p>
+          </div>
+          <hr class="pb-2">
+          <div class="font-barlow text-[20px] pt-12">
+            A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In 2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.
+          </div>
+        </div>
+      </div>
+      <img src="@/assets/img_7.png" class="pt-12 pr-2 justify-self-end" />
+    </div>
+
+    <div class="py-12" />
+
+    <!-- Founder 2 -->
+
+    <div class="grid pr-12">
+      <div class="grid grid-cols-2">
+        <div class="font-barlow text-[36px] font-bold pl-24 w-3">SORAYA FERHANI NGUYEN</div>
+        <div>
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">World Cup Cadets</p>
+            <p class="font-barlow text-[18px] pb-2">3rd: Tournoi de France, Paris. U52. 2003</p>
+          </div>
+          <hr class="pb-2">
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">National Junior Championships</p>
+            <p class="font-barlow text-[18px] pb-2">1st: French U20 Championships Paris. U52. 2005</p>
+            <p class="font-barlow text-[18px] pb-2">3rd: French U20 Championships Paris. U52. 2006</p>
+          </div>
+          <hr class="pb-2">
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">International Junior Tournaments</p>
+            <p class="font-barlow text-[18px] pb-2">3rd: International U20 Tournament Open Sens U52. 2006</p>
+          </div>
+          <hr class="pb-2">
+          <div>
+            <p class="font-barlow text-[20px] font-bold pb-2">University Championships seniors</p>
+            <p class="font-barlow text-[18px] pb-2">1st: French UNSS Championships. U52. 2007</p>
+          </div>
+          <hr class="pb-2">
+          <div class="font-barlow text-[20px] pt-12">
+            A French former judo high level judo athlete, Soraya is the cofounder of the Dojo House.
+            Passionate about the sport, she started judo when she was 6 years old, and competed at a high level before being forced to discontinue due to injury. The Dojo House is now a means for her to transmit her passion to her students.
+          </div>
+        </div>
+      </div>
+      <img src="@/assets/img_8.png" class="pt-12 pr-2 justify-self-end" />
+    </div>
+
+  </div>
+
+  <btn class="font-barlow text-[16px] justify-self-end">Back to top</btn>
 </template>
   
 <script setup>
 </script>
-  
