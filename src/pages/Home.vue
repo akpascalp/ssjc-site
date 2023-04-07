@@ -3,7 +3,7 @@
     <!-- <video autoplay muted loop class="h-screen object-cover">
       <source src="@/assets/test-video.mp4" type="video/mp4">
     </video> -->
-    <img src="@/assets/img_1.png" class="w-screen object-cover" />
+    <img src="@/assets/img_1.png" class="h-screen object-cover" />
     <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-barlow">A School Of Life</p>
     <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-barlow">DOJO HOUSE OF SSJC</p>
     <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-barlow">Scroll down to learn more</p>
@@ -232,7 +232,7 @@
 
   </div>
 
-  <btn class="font-barlow text-[16px] justify-self-end">Back to top</btn>
+  <button class="font-barlow text-[16px] justify-self-end">Back to top</button>
 </template>
   
 <script setup>

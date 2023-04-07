@@ -1,5 +1,5 @@
 <template>
-    <footer class="pl-20 bg-gray-100">
+    <footer class="flex bottom-0 bg-gray-100">
         This is the footer
     </footer>
 </template>
