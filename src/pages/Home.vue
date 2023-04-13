@@ -138,10 +138,12 @@
       <img src="@/assets/img_5.png" class="relative -top-64 left-36 -mb-48" />
 
       <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-        <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <button class="font-barlow text-[22px] text-white ml-72 px-8 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
-            Contact Us
-          </button>
+        <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <button
+          class="font-barlow text-[22px] text-white ml-72 px-8 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+          Contact Us
+        </button>
       </div>
 
     </div>
@@ -185,7 +187,8 @@
           </div>
           <hr class="pb-2">
           <div class="font-barlow text-[20px] pt-12">
-            A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In 2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.
+            A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In
+            2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.
           </div>
         </div>
       </div>
@@ -223,7 +226,9 @@
           <hr class="pb-2">
           <div class="font-barlow text-[20px] pt-12">
             A French former judo high level judo athlete, Soraya is the cofounder of the Dojo House.
-            Passionate about the sport, she started judo when she was 6 years old, and competed at a high level before being forced to discontinue due to injury. The Dojo House is now a means for her to transmit her passion to her students.
+            Passionate about the sport, she started judo when she was 6 years old, and competed at a high level before
+            being forced to discontinue due to injury. The Dojo House is now a means for her to transmit her passion to
+            her students.
           </div>
         </div>
       </div>
@@ -231,9 +236,11 @@
     </div>
 
   </div>
-
-  <button class="font-barlow text-[16px] justify-self-end">Back to top</button>
 </template>
   
-<script setup>
+<script>
+export default {
+  methods: {
+  }
+}
 </script>

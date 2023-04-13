@@ -9,6 +9,9 @@ const app = createApp(App)
 const router = createRouter({
     history: createWebHistory(),
     routes,
+    scrollBehavior() {
+        document.getElementById('app').scrollIntoView({ behavior: 'smooth' });
+    }
 })
 
 app.use(router)

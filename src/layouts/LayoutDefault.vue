@@ -6,7 +6,7 @@
                 <router-view />
             </main>
         </div>
-        <SiteFooter />
+        <SiteFooter class="pl-20" />
     </div>
 </template>
 
