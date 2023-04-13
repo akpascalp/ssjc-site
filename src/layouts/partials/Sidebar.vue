@@ -41,9 +41,10 @@
                   <br class="py-16" />
                   <br class="py-16" />
                 </div>
-                <button v-else class="font-barlow text-[20px] text-black text-left flex relative">
+                <button v-else class="font-barlow text-[20px] text-black text-left flex relative"
+                  @click="showMenu = false">
                   <div class="hover:underline underline-offset-4">
-                    {{ menu.name }}
+                    <router-link :to="menu.to">{{ menu.name }}</router-link>
                   </div>
                   <svg v-if="menu.subMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1" stroke="currentColor" class="w-4 h-4 ml-3 mt-2 transition duration-150 ease-in-out "
@@ -51,8 +52,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                   <div class="absolute left-72 space-y-4 invisible group-hover:visible">
-                    <button v-for="subMenu in menu.subMenu"
-                      class="font-barlow text-[20px] hover:underline w-56 text-left">
+                    <button v-for="subMenu in menu.subMenu" class="font-barlow text-[20px] hover:underline w-56 text-left">
                       {{ subMenu.name }}
                     </button>
                   </div>
@@ -81,13 +81,15 @@ export default {
       showMenu: false,
       menus: [{
         'name': 'Home',
+        'to': '/',
         'subMenu': [{
-          'name': 'Home SubMenu 1'
+          'name': 'Home SubMenu 1',
         }, {
           'name': 'Home SubMenu 2'
         }]
       }, {
         'name': 'Disciplines',
+        'to': '/disciplines',
         'subMenu': [{
           'name': 'Judo'
         }, {
@@ -103,22 +105,16 @@ export default {
         }]
       }, {
         'name': 'News',
-        'subMenu': [{
-          'name': 'News SubMenu 1'
-        }, {
-          'name': 'News SubMenu 2'
-        }]
+        'to': '/news'
       }, {
-        'name': 'Social'
+        'name': 'Social',
+        'to': '/social',
       }, {
         'name': 'Planning & Tarification',
-        'subMenu': [{
-          'name': 'Planning SubMenu 1'
-        }, {
-          'name': 'Planning SubMenu 2'
-        }]
+        'to': '/planning'
       }, {
         'name': 'Shop',
+        'to': '/shop',
         'subMenu': [{
           'name': 'Shop SubMenu 1'
         }, {
@@ -127,11 +123,14 @@ export default {
       }, {
         'name': '_break'
       }, {
-        'name': 'Contact'
+        'name': 'Contact',
+        'to': '/contact'
       }, {
-        'name': 'Press'
+        'name': 'Press',
+        'to': '/press'
       }, {
-        'name': 'Member'
+        'name': 'Member',
+        'to': '/member'
       }],
       displayedIndex: null
     }

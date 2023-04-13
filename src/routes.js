@@ -11,8 +11,9 @@ import LayoutDefault from '@/layouts/LayoutDefault.vue'
  * Pages
  * ---
  */
-// Tenant
 import Home from '@/pages/Home.vue'
+import Disciplines from '@/pages/Disciplines.vue'
+import NotFound404 from '@/pages/NotFound404.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
 export const routes = [
@@ -25,5 +26,13 @@ export const routes = [
       {path: '', component: Home, name:'home', meta: {title:'Home'}},
     ]
   },
-  // { path: '/:path(.*)', component: NotFound },
+  {
+    path: '/disciplines', 
+    component: LayoutDefault, 
+    meta: { title: 'Disciplines' },
+    children: [
+      {path: '', component: Disciplines, name:'disciplines', meta: {title:'Disciplines'}},
+    ]
+  },
+  { path: '/:path(.*)', component: NotFound404 },
 ]
