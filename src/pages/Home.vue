@@ -1,5 +1,5 @@
 <template>
-  <div class="relative h-screen bg-cyan-50">
+  <div class="relative h-screen">
     <!-- <video autoplay muted loop class="h-screen object-cover">
       <source src="@/assets/test-video.mp4" type="video/mp4">
     </video> -->
