@@ -170,10 +170,31 @@
   <div>
     <img src="@/assets/planning.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
   </div>
+
+  <Carousel :images="images" />
 </template>
     
 <script>
+import Carousel from '@/components/Carousel.vue'
+
 export default {
+  components: {
+    Carousel
+  },
+  data() {
+    return {
+      images: [{
+        src: 'src/assets/img_1.png',
+        alt: 'Img 1'
+      }, {
+        src: 'src/assets/img_2.png',
+        alt: 'Img 2'
+      }, {
+        src: 'src/assets/img_3.png',
+        alt: 'Img 3'
+      }]
+    }
+  },
   methods: {
   }
 }

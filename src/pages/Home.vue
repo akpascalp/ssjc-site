@@ -39,7 +39,7 @@
           Book A Session
         </button>
       </div>
-      <img src="@/assets/img_2.png" class="col-start-2 col-span-2 pr-12 pt-20 pb-24" />
+      <img src="@/assets/img_2.png" class="col-start-2 col-span-2 pr-12 pt-20 h-2/3" />
     </div>
     <div class="pb-24">
       <div class="bg-[#F6F6F6] mx-24 py-24 grid grid-cols-3">
@@ -102,8 +102,8 @@
           SEE ALL DISCIPLINES
         </button>
       </div>
-      <div>TODO CAROUSEL</div>
     </div>
+    <Carousel :images="images" />
   </div>
 
   <br class="py-6" />
@@ -111,7 +111,7 @@
   <!-- Judo -->
 
   <div>
-    <div class="static">
+    <div class="relative">
       <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
         <img src="@/assets/img_4.png" class="pt-8 pb-8 pl-24" />
         <div class="col-span-2">
@@ -239,7 +239,26 @@
 </template>
   
 <script>
+import Carousel from '@/components/Carousel.vue'
+
 export default {
+  components: {
+    Carousel
+  },
+  data() {
+    return {
+      images: [{
+        src: 'src/assets/img_1.png',
+        alt: 'Img 1'
+      }, {
+        src: 'src/assets/img_2.png',
+        alt: 'Img 2'
+      }, {
+        src: 'src/assets/img_3.png',
+        alt: 'Img 3'
+      }]
+    }
+  },
   methods: {
   }
 }
