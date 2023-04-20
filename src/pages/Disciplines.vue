@@ -88,6 +88,7 @@
     <!-- Founder 1 -->
 
     <div class="grid pr-12">
+      <!-- TODO use list ? -->
       <div class="grid grid-cols-2">
         <div class="font-barlow text-[36px] font-bold pl-24 w-3">Benjamin Nguyen</div>
         <div>
@@ -169,6 +170,21 @@
   <!-- The Planning -->
   <div>
     <img src="@/assets/planning.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
+    <div class="grid grid-cols-2 pl-24">
+      <div class="font-barlow text-[30px] font-bold mr-96">
+        <ul>
+          <li>Monday,</li>
+          <li>Wednesday,</li>
+          <li>Friday</li>
+        </ul>
+      </div>
+      <ul class="divide-y pr-20">
+        <li v-for="classData in planning" class="grid grid-cols-2 items-center py-4">
+          <p class="font-barlow text-[28px] font-bold">{{ classData.time }}</p>
+          <p class="font-barlow text-[18px] justify-self-end">{{ classData.name }}</p>
+        </li>
+      </ul>
+    </div>
   </div>
 
   <Carousel :images="images" />
@@ -192,7 +208,17 @@ export default {
       }, {
         src: 'src/assets/img_3.png',
         alt: 'Img 3'
-      }]
+      }],
+      planning: [
+        { time: '6:00 AM', name: 'Fundamentals' },
+        { time: '6:00 AM', name: 'Basics' },
+        { time: '7:00 AM', name: 'Pro Training' },
+        { time: '8:00 AM', name: 'Kids 3-5 / Kids 5-7' },
+        { time: '3:00 PM', name: 'Fundamentals' },
+        { time: '4:00 PM', name: 'Basics' },
+        { time: '5:00 PM', name: 'Pro Training' },
+        { time: '6:00 PM', name: 'Kids 3-5 / Kids 5-7' },
+      ]
     }
   },
   methods: {
