@@ -207,7 +207,41 @@
     </div>
   </div>
 
+  <div class="relative">
+    <div class="relative bg-[#F6F6F6] pt-24 pb-80 grid justify-items-center gap-14 -bottom-40">
+      <img src="@/assets/citation.png" class="w-4" />
+      <div class="font-barlow text-[16px]">
+        Dojo House of SSJC
+      </div>
+      <div class="font-barlow text-[36px] w-1/2 text-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua
+      </div>
+      <img src="@/assets/citation.png" class="w-4" />
+    </div>
+  </div>
+
   <Carousel :images="images" />
+
+  <div class="py-8" />
+
+  <div class="font-barlow text-[16px] px-72 w-4/5">
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  </div>
+
+  <div class="py-12" />
+
+  <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
+    <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <button
+      class="font-barlow text-[22px] text-white ml-72 px-8 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+      Book a Session
+    </button>
+  </div>
 </template>
     
 <script>
