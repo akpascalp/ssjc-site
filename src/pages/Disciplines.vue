@@ -67,6 +67,26 @@
             best initial training sport for children and young people”. It can be practiced at any age and any level.
           </p>
         </div>
+        <div class="flex flex-col gap-3">
+          <button class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+              <path fill-rule="evenodd"
+                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+                clip-rule="evenodd" />
+            </svg>
+            <p class="pl-4 font-barlow text-[18px]">View Coaches</p>
+          </button>
+          <button class="flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+              <path fill-rule="evenodd"
+                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+                clip-rule="evenodd" />
+            </svg>
+            <p class="pl-4 font-barlow text-[18px]">View Planning</p>
+          </button>
+        </div>
+        <br>
+        <br>
         <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
           Book A Session
         </button>
