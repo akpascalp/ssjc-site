@@ -44,7 +44,9 @@
                 <button v-else class="font-barlow text-[20px] text-black text-left flex relative"
                   @click="showMenu = false">
                   <div class="hover:underline underline-offset-4">
-                    <router-link :to="menu.to">{{ menu.name }}</router-link>
+                    <router-link v-if="menu.to !== undefined" :to="menu.to !== undefined ? menu.to : ''">{{ menu.name
+                    }}</router-link>
+                    <div v-else @click.stop style="cursor: auto">{{ menu.name }}</div>
                   </div>
                   <svg v-if="menu.subMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1" stroke="currentColor" class="w-4 h-4 ml-3 mt-2 transition duration-150 ease-in-out "
@@ -52,8 +54,9 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                   <div class="absolute left-72 space-y-4 invisible group-hover:visible">
-                    <button v-for="subMenu in menu.subMenu" class="font-barlow text-[20px] hover:underline w-56 text-left">
-                      {{ subMenu.name }}
+                    <button v-for="subMenu in menu.subMenu"
+                      class="font-barlow text-[20px] hover:underline w-56 text-left">
+                      <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                     </button>
                   </div>
                 </button>
@@ -81,27 +84,15 @@ export default {
       showMenu: false,
       menus: [{
         'name': 'Home',
-        'to': '/',
-        'subMenu': [{
-          'name': 'Home SubMenu 1',
-        }, {
-          'name': 'Home SubMenu 2'
-        }]
+        'to': '/'
       }, {
         'name': 'Disciplines',
-        'to': '/disciplines',
         'subMenu': [{
-          'name': 'Judo'
+          'name': 'Judo',
+          'to': '/judo'
         }, {
-          'name': 'Shadow Judo'
-        }, {
-          'name': 'BJJ - BJJ No Gi'
-        }, {
-          'name': 'Physical Training'
-        }, {
-          'name': 'Gymnastic'
-        }, {
-          'name': 'Karaté'
+          'name': 'Shadow Judo',
+          'to': '/shadow-judo'
         }]
       }, {
         'name': 'News',
@@ -114,12 +105,7 @@ export default {
         'to': '/planning'
       }, {
         'name': 'Shop',
-        'to': '/shop',
-        'subMenu': [{
-          'name': 'Shop SubMenu 1'
-        }, {
-          'name': 'Shop SubMenu 2'
-        }]
+        'to': '/shop'
       }, {
         'name': '_break'
       }, {

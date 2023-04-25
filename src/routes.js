@@ -12,7 +12,7 @@ import LayoutDefault from '@/layouts/LayoutDefault.vue'
  * ---
  */
 import Home from '@/pages/Home.vue'
-import Disciplines from '@/pages/Disciplines.vue'
+import Judo from '@/pages/Judo.vue'
 import NotFound404 from '@/pages/NotFound404.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -27,11 +27,11 @@ export const routes = [
     ]
   },
   {
-    path: '/disciplines', 
+    path: '/judo', 
     component: LayoutDefault, 
-    meta: { title: 'Disciplines' },
+    meta: { title: 'Judo' },
     children: [
-      {path: '', component: Disciplines, name:'disciplines', meta: {title:'Disciplines'}},
+      {path: '', component: Judo, name:'judo', meta: {title:'Judo'}},
     ]
   },
   { path: '/:path(.*)', component: NotFound404 },
