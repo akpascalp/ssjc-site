@@ -13,6 +13,7 @@ import LayoutDefault from '@/layouts/LayoutDefault.vue'
  */
 import Home from '@/pages/Home.vue'
 import Judo from '@/pages/Judo.vue'
+import Social from '@/pages/Social.vue'
 import NotFound404 from '@/pages/NotFound404.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -32,6 +33,14 @@ export const routes = [
     meta: { title: 'Judo' },
     children: [
       {path: '', component: Judo, name:'judo', meta: {title:'Judo'}},
+    ]
+  },
+  {
+    path: '/social', 
+    component: LayoutDefault, 
+    meta: { title: 'Social' },
+    children: [
+      {path: '', component: Social, name:'social', meta: {title:'Social'}},
     ]
   },
   { path: '/:path(.*)', component: NotFound404 },
