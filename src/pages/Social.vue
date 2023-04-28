@@ -45,7 +45,7 @@
         to our equipment and expertise. To make it possible we collaborate with NGO (Name) who share the same vision.
       </p>
       <button
-        class="col-start-2 font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2 justify-self-center">
+        class="btn-primary col-start-2 justify-self-center">
         Book A Session
       </button>
     </div>
@@ -64,7 +64,7 @@
           nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
           id
           est laborum."</p>
-        <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+        <button class="btn-primary">
           See All Disciplines
         </button>
       </div>

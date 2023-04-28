@@ -35,7 +35,7 @@
           <b>Dojo House</b> is a zen haven for practicing martial arts and for self-improvement, open to all ages (kids
           and adults) and to all levels of practitioners: a <i>place for immersive learning</i>.
         </p>
-        <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+        <button class="btn-primary">
           Book A Session
         </button>
       </div>
@@ -98,7 +98,7 @@
         <p class="font-barlow text-[20px] pr-16 pb-16">
           Dojo House is a unique place to make improvements every day in your martial arts.
         </p>
-        <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+        <button class="btn-primary">
           SEE ALL DISCIPLINES
         </button>
       </div>
@@ -130,7 +130,7 @@
             incompatible
             with procedures that would go against the spirit of the sport.
           </p>
-          <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+          <button class="btn-primary">
             Book A Session
           </button>
         </div>
@@ -140,12 +140,10 @@
       <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
         <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <button
-          class="font-barlow text-[22px] text-white ml-72 px-8 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+        <button class="btn-primary ml-72 text-white">
           Contact Us
         </button>
       </div>
-
     </div>
   </div>
 

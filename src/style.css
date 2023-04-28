@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn-primary {
+      @apply font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2;
+    }
+  }

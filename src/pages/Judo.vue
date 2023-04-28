@@ -87,7 +87,7 @@
         </div>
         <br>
         <br>
-        <button class="font-barlow text-[22px] px-10 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+        <button class="btn-primary">
           Book A Session
         </button>
       </div>
@@ -238,7 +238,7 @@
     <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
     <button
-      class="font-barlow text-[22px] text-white ml-72 px-8 py-6 border-[#D2D2D2] border-solid border-2 rounded hover:ring-2">
+      class="btn-primary text-white ml-72">
       Book a Session
     </button>
   </div>
