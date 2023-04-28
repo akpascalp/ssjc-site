@@ -14,33 +14,34 @@
   <!-- Our Concept -->
 
   <div>
-    <img src="@/assets/our_concept.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
-    <!-- Our Concept
-    </div> -->
-    <div class="grid grid-cols-3 pt-2">
-      <p class="font-barlow text-[16px] col-start-2 mr-32">
-        <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact, it
-          is a means for personal cultural attainment." Kano Jigoro</i>
-      </p>
-      <div class="-ml-20">
-        <p class="font-barlow text-[20px] pr-16 pb-4">
+    <Bloc1>
+      <template #title>
+        <img src="@/assets/our_concept.png" class="font-barlow text-[48px]" />
+      </template>
+      <template #text1>
+        <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact,
+          it
+          is a means for personal cultural attainment." Kano Jigoro test</i>
+      </template>
+      <template #text2>
           Inspired by the Dojo essence, <b>Dojo House</b> of SSJC is a venue for learning, research, and the practice of
           martial arts.
-        </p>
-        <p class="font-barlow text-[20px] pr-16 pb-4">
+          <br/>
+          <br/>
           It is conceived and crafted according to traditional Japanese dojo codes and meets the French Judo Federation’s
           safety standards.
-        </p>
-        <p class="font-barlow text-[20px] pr-16 pb-16">
+          <br />
+          <br />
           <b>Dojo House</b> is a zen haven for practicing martial arts and for self-improvement, open to all ages (kids
           and adults) and to all levels of practitioners: a <i>place for immersive learning</i>.
-        </p>
-        <button class="btn-primary">
-          Book A Session
-        </button>
-      </div>
-      <img src="@/assets/img_2.png" class="col-start-2 col-span-2 pr-12 pt-20 h-2/3" />
+      </template>
+      <template #button>Book A Session</template>
+    </Bloc1>
+
+    <div class="grid grid-cols-3 py-4">
+      <img src="@/assets/img_2.png" class="col-start-2 col-span-2" />
     </div>
+
     <div class="pb-24">
       <div class="bg-[#F6F6F6] mx-24 py-24 grid grid-cols-3">
         <img src="@/assets/citation.png" class="mx-24" />
@@ -72,37 +73,35 @@
   <!-- The Martial Art School -->
 
   <div>
-    <img src="@/assets/martial_art_school.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
-    <!-- Our Concept
-    </div> -->
-    <div class="grid grid-cols-3 pt-2">
-      <p class="font-barlow text-[16px] col-start-2 mr-32">
+    <Bloc1>
+      <template #title>
+        <img src="@/assets/martial_art_school.png" class="font-barlow text-[48px]">
+      </template>
+      <template #text1>
         <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
           his generation, we make a contribution extending a hundred generations to come." Kano Jigoro</i>
-      </p>
-      <div class="-ml-20">
-        <p class="font-barlow text-[20px] pr-16 pb-4">
-          Founded in 2020 by Soraya and Benjamin
+      </template>
+      <template #text2>
+        Founded in 2020 by Soraya and Benjamin
           Nguyen, former high-level judo athletes,
           Dojo House is a place where one can not
           only practice martial arts, but also work,
           study and socialize.
-        </p>
-        <p class="font-barlow text-[20px] pr-16 pb-4">
+          <br />
+          <br />
           The aim of our project is to combine work and
           sports as a lifestyle. This is the discipline that
           we've applied from a young age as student
           athletes and later on as competitors who
           also held challenging jobs.
-        </p>
-        <p class="font-barlow text-[20px] pr-16 pb-16">
+          <br />
+          <br />
           Dojo House is a unique place to make improvements every day in your martial arts.
-        </p>
-        <button class="btn-primary">
-          SEE ALL DISCIPLINES
-        </button>
-      </div>
-    </div>
+      </template>
+      <template #button>
+        See All Disciplines
+      </template>
+    </Bloc1>
     <Carousel :images="images" />
   </div>
 
@@ -237,11 +236,13 @@
 </template>
   
 <script>
-import Carousel from '@/components/Carousel.vue'
+import Carousel from '@/components/Carousel.vue';
+import Bloc1 from '@/layouts/Bloc1.vue';
 
 export default {
   components: {
-    Carousel
+    Carousel,
+    Bloc1
   },
   data() {
     return {

@@ -44,45 +44,46 @@
         Thanks to corporate sponsors, individuals who normally wouldn't be able to afford a membership would gain access
         to our equipment and expertise. To make it possible we collaborate with NGO (Name) who share the same vision.
       </p>
-      <button
-        class="btn-primary col-start-2 justify-self-center">
+      <button class="btn-primary col-start-2 justify-self-center">
         Book A Session
       </button>
     </div>
 
-
-
-    <img src="@/assets/helping.png" class="pl-24 pt-24 pb-12" />
-    <div class="grid grid-cols-3 font-barlow gap-x-16 px-24 pb-24">
-      <p class="col-start-2 text-[#7C7C7C]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua”</p>
-      <div class="col-start-3">
-        <p class="pb-20">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip
-          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-          nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-          id
-          est laborum."</p>
-        <button class="btn-primary">
-          See All Disciplines
-        </button>
-      </div>
-
-    </div>
-
+    <Bloc1>
+      <template #title>
+        <img src="@/assets/helping.png" />
+      </template>
+      <template #text1>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua”
+      </template>
+      <template #text2>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+        id
+        est laborum."
+      </template>
+      <template #button>
+        See All Disciplines
+      </template>
+    </Bloc1>
     <Carousel :images="images" />
 
-    <br/>
+    <br />
   </div>
 </template>
       
 <script>
-import Carousel from '@/components/Carousel.vue'
+import Carousel from '@/components/Carousel.vue';
+import Bloc1 from '@/layouts/Bloc1.vue';
 
 export default {
   components: {
-    Carousel
+    Carousel,
+    Bloc1
   },
   data() {
     return {
