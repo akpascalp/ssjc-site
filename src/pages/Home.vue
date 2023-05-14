@@ -1,9 +1,9 @@
 <template>
   <div class="relative h-screen">
     <!-- <video autoplay muted loop class="h-screen object-cover">
-      <source src="@/assets/test-video.mp4" type="video/mp4">
+      <source src="/test-video.mp4" type="video/mp4">
     </video> -->
-    <img src="@/assets/img_1.png" class="h-screen object-cover" />
+    <img src="/img_1.png" class="h-screen object-cover" />
     <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-light">A School Of Life</p>
     <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-light">DOJO HOUSE OF SSJC</p>
     <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-light">Scroll down to learn more</p>
@@ -22,7 +22,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="@/assets/our_concept.png" class="font-light text-[48px]" />
+        <img src="/our_concept.png" class="font-light text-[48px]" />
       </template>
       <template #text1>
         <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact,
@@ -45,12 +45,12 @@
     </Bloc1>
 
     <div class="grid grid-cols-3 py-4">
-      <img src="@/assets/img_2.png" class="col-start-2 col-span-2" />
+      <img src="/img_2.png" class="col-start-2 col-span-2" />
     </div>
 
     <div class="pb-24">
       <div class="bg-[#F6F6F6] mx-20 py-20 grid grid-cols-3">
-        <img src="@/assets/citation.png" class="mx-24" />
+        <img src="/citation.png" class="mx-24" />
         <div>
           <p class="text-[24px] col-span-2">
             <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</b>
@@ -62,7 +62,7 @@
         </div>
       </div>
     </div>
-    <img src="@/assets/img_3.png" class="w-screen object-cover px-24 py-12" />
+    <img src="/img_3.png" class="w-screen object-cover px-24 py-12" />
   </div>
 
   <br class="py-6" />
@@ -72,7 +72,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="@/assets/martial_art_school.png" class="text-[48px]">
+        <img src="/martial_art_school.png" class="text-[48px]">
       </template>
       <template #text1>
         <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
@@ -109,9 +109,9 @@
   <div>
     <div class="relative">
       <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
-        <img src="@/assets/img_4.png" class="pt-8 pb-8 pl-24" />
+        <img src="/img_4.png" class="pt-8 pb-8 pl-24" />
         <div class="col-span-2">
-          <img src="@/assets/Judo.png" class="pt-4 pb-24" />
+          <img src="/Judo.png" class="pt-4 pb-24" />
           <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
             "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
           </p>
@@ -131,9 +131,9 @@
           </button>
         </div>
       </div>
-      <img src="@/assets/img_5.png" class="relative -top-64 left-36 -mb-48" />
+      <img src="/img_5.png" class="relative -top-64 left-36 -mb-48" />
 
-      <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
+      <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
         <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         <button class="btn-primary ml-72 text-white">
@@ -148,7 +148,7 @@
   <!-- The Founders -->
 
   <div>
-    <img src="@/assets/founders.png" class="pt-28 pb-24 pl-24" />
+    <img src="/founders.png" class="pt-28 pb-24 pl-24" />
 
     <PersonLayout v-for="person in founders" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
@@ -170,13 +170,13 @@ export default {
   data() {
     return {
       images: [{
-        src: 'src/assets/img_1.png',
+        src: '/img_1.png',
         alt: 'Img 1'
       }, {
-        src: 'src/assets/img_2.png',
+        src: '/img_2.png',
         alt: 'Img 2'
       }, {
-        src: 'src/assets/img_3.png',
+        src: '/img_3.png',
         alt: 'Img 3'
       }],
       founders: [{

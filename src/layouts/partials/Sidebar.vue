@@ -12,7 +12,7 @@
             :class="{ '-rotate-45': showMenu, ' translate-y-0.5': !showMenu }"></span>
         </div>
       </button>
-      <img src="@/assets/DOJO.png" />
+      <img src="/DOJO.png" />
       <div class="grid grid-rows-2 place-content-end mt-48">
         <button class="font-bold">EN</button>
         <button class="">VN</button>

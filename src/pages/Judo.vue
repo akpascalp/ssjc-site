@@ -1,6 +1,6 @@
 <template>
   <div class="relative w-screen pl-16 bg-black">
-    <img src="@/assets/img_9.png" class="h-screen object-cover" />
+    <img src="/img_9.png" class="h-screen object-cover" />
   </div>
 
 
@@ -14,7 +14,7 @@
   <!-- Judo -->
 
   <div>
-    <img src="@/assets/Judo.png" class="text-[48px] pt-8 pb-8 pl-24" />
+    <img src="/Judo.png" class="text-[48px] pt-8 pb-8 pl-24" />
     <div class="grid grid-cols-2 pt-2">
       <p class="text-[16px] mx-20">
         <i>“The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro</i>
@@ -98,8 +98,8 @@
       </div>
     </div>
     <div class="grid grid-cols-2 pt-20 items-start place-items-center mx-8">
-      <img src="@/assets/img_2.png" class="w-2/3" />
-      <img src="@/assets/img_10.png" class="w-2/3" />
+      <img src="/img_2.png" class="w-2/3" />
+      <img src="/img_10.png" class="w-2/3" />
     </div>
   </div>
 
@@ -108,7 +108,7 @@
   <!-- The Coaches -->
 
   <div>
-    <img src="@/assets/coaches.png" class="pt-28 pb-24 pl-24" />
+    <img src="/coaches.png" class="pt-28 pb-24 pl-24" />
 
     <PersonLayout v-for="person in coaches" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
@@ -117,7 +117,7 @@
 
   <!-- The Planning -->
   <div>
-    <img src="@/assets/planning.png" class="text-[48px] pt-8 pb-8 pl-24" />
+    <img src="/planning.png" class="text-[48px] pt-8 pb-8 pl-24" />
     <div class="grid grid-cols-2 pl-24">
       <div class="text-[30px] font-bold mr-96">
         <ul>
@@ -137,7 +137,7 @@
 
   <div class="relative">
     <div class="relative bg-[#F6F6F6] pt-24 pb-80 grid justify-items-center gap-14 -bottom-40">
-      <img src="@/assets/citation.png" class="w-4" />
+      <img src="/citation.png" class="w-4" />
       <div class="text-[16px]">
         Dojo House of SSJC
       </div>
@@ -145,7 +145,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua
       </div>
-      <img src="@/assets/citation.png" class="w-4" />
+      <img src="/citation.png" class="w-4" />
     </div>
   </div>
 
@@ -162,7 +162,7 @@
 
   <div class="py-12" />
 
-  <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
+  <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
     <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
     <button class="btn-primary text-white ml-72">
@@ -183,13 +183,13 @@ export default {
   data() {
     return {
       images: [{
-        src: 'src/assets/img_1.png',
+        src: '/img_1.png',
         alt: 'Img 1'
       }, {
-        src: 'src/assets/img_2.png',
+        src: '/img_2.png',
         alt: 'Img 2'
       }, {
-        src: 'src/assets/img_3.png',
+        src: '/img_3.png',
         alt: 'Img 3'
       }],
       planning: [

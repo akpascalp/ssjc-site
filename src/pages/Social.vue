@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="grid grid-cols-3 px-24">
-      <img src="@/assets/social.png" class="text-[48px] py-16 place-self-center col-span-3" />
+      <img src="/social.png" class="text-[48px] py-16 place-self-center col-span-3" />
       <img src="/img_7.png" class="place-self-center col-span-3 pb-12" />
 
       <p class="text-[56px]">Sponsoring</p>
@@ -29,11 +29,11 @@
         </ul>
       </div>
 
-      <img src="@/assets/img_2.png" class="pt-12" />
-      <img src="@/assets/img_3.png" class="col-span-2 pl-24 pt-12" />
+      <img src="/img_2.png" class="pt-12" />
+      <img src="/img_3.png" class="col-span-2 pl-24 pt-12" />
 
 
-      <img src="@/assets/vision.png" class="text-[48px] place-self-center col-span-3 py-16" />
+      <img src="/vision.png" class="text-[48px] place-self-center col-span-3 py-16" />
       <p class="col-span-1 col-start-2 -mx-40 text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:
         Our Vision’s Key Points</p>
       <hr class="col-span-1 col-start-2 -mx-40 pt-12" />
@@ -51,7 +51,7 @@
 
     <Bloc1>
       <template #title>
-        <img src="@/assets/helping.png" />
+        <img src="/helping.png" />
       </template>
       <template #text1>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -88,13 +88,13 @@ export default {
   data() {
     return {
       images: [{
-        src: 'src/assets/img_1.png',
+        src: '/img_1.png',
         alt: 'Img 1'
       }, {
-        src: 'src/assets/img_2.png',
+        src: '/img_2.png',
         alt: 'Img 2'
       }, {
-        src: 'src/assets/img_3.png',
+        src: '/img_3.png',
         alt: 'Img 3'
       }],
       planning: [

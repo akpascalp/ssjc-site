@@ -8,7 +8,7 @@
     <br class="py-24" />
 
     <div class="pl-12 py-4">
-      <img src="@/assets/DOJO.png" class="w-8" />
+      <img src="/DOJO.png" class="w-8" />
       <div class="grid grid-cols-6 pt-6 text-[16px]">
         <div class="col-span-2 mr-12">
           <p>
@@ -18,10 +18,10 @@
           </p>
           <div class="flex gap-x-4 pt-4">
             <button>
-              <img src="@/assets/fb.png" href="#" />
+              <img src="/fb.png" href="#" />
             </button>
             <button>
-              <img src="@/assets/instagram.png" href="#" />
+              <img src="/instagram.png" href="#" />
             </button>
           </div>
         </div>

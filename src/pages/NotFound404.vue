@@ -13,7 +13,7 @@
                     <a href="/" class="px-6 py-2 text-sm font-semibold text-blue-800 bg-blue-100">Go home</a>
                 </div>
                 <div class="mt-4">
-                    <img src="@/assets/img_8.png" alt="img"
+                    <img src="/img_8.png" alt="img"
                         class="object-cover w-full h-full" />
                 </div>
             </div>
