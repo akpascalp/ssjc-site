@@ -1,5 +1,5 @@
 <template>
-  <div class="relative w-screen pl-16 bg-black">
+  <div class="relative w-screen pl-16 bg-white">
     <img src="/img_9.png" class="h-screen object-cover" />
   </div>
 
@@ -119,17 +119,17 @@
   <div>
     <img src="/planning.png" class="text-[48px] pt-8 pb-8 pl-24" />
     <div class="grid grid-cols-2 pl-24">
-      <div class="text-[30px] font-bold mr-96">
+      <div class="text-[36px] mr-96">
         <ul>
-          <li>Monday,</li>
-          <li>Wednesday,</li>
-          <li>Friday</li>
+          <li><b>Monday,</b></li>
+          <li><b>Wednesday,</b></li>
+          <li><b>Friday</b></li>
         </ul>
       </div>
       <ul class="divide-y pr-20">
         <li v-for="classData in planning" class="grid grid-cols-2 items-center py-4">
-          <p class="text-[28px] font-bold">{{ classData.time }}</p>
-          <p class="text-[18px] justify-self-end">{{ classData.name }}</p>
+          <p class="text-[24px]"><b>{{ classData.time }}</b></p>
+          <p class="text-[16px] justify-self-end">{{ classData.name }}</p>
         </li>
       </ul>
     </div>
@@ -141,7 +141,7 @@
       <div class="text-[16px]">
         Dojo House of SSJC
       </div>
-      <div class="text-[36px] w-1/2 text-center">
+      <div class="text-[36px] w-1/3 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua
       </div>

@@ -2,7 +2,7 @@
   <footer class="bottom-0">
     <br class="py-12" />
     <div class="grid">
-      <button href="#" class="text-[16px] place-self-end m-6" @click="toTop">Back to top</button>
+      <button href="#" class="text-[16px] place-self-end m-6" @click="toTop"><b>Back to top</b></button>
     </div>
     <hr />
     <br class="py-24" />

@@ -4,8 +4,8 @@
       <img src="/social.png" class="text-[48px] py-16 place-self-center col-span-3" />
       <img src="/img_7.png" class="place-self-center col-span-3 pb-12" />
 
-      <p class="text-[56px]">Sponsoring</p>
-      <p class="text-[18px] col-span-2 pl-24">Why should you sponsor us?
+      <p class="text-[36px]">Sponsoring</p>
+      <p class="text-[16px] col-span-2 pl-24">Why should you sponsor us?
         Sponsoring the Dojo House will allow kids in precarious conditions to learn a martial art with great values and
         will
         give them access to a unique framework. At the Dojo House we also have long term goal. We want to contribute to
@@ -45,7 +45,7 @@
         to our equipment and expertise. To make it possible we collaborate with NGO (Name) who share the same vision.
       </p>
       <button class="btn-primary col-start-2 justify-self-center">
-        Book A Session
+        More Infos
       </button>
     </div>
 

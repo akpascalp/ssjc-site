@@ -32,28 +32,24 @@
         leave-to="-translate-x-full">
         <div class="relative grid grid-cols-2 w-full max-w-3xl bg-white">
           <div class="relative flex flex-col flex-1">
-            <div class="sticky top-0 left-20 flex flex-col h-screen inset-y-0 ml-24 mt-24 space-y-4">
+            <div class="sticky top-0 left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
               <div v-for="(menu, index) in menus" class="group" @mouseover="displayedIndex = index">
                 <div v-if="menu.name === '_break'">
-                  <br class="py-16" />
-                  <br class="py-16" />
-                  <br class="py-16" />
+                  <div class="m-48" />
                 </div>
-                <button v-else class="text-[20px] text-black text-left flex relative"
-                  @click="showMenu = false">
+                <button v-else class="text-[16px] text-black text-left flex relative" @click="showMenu = false">
                   <div class="hover:underline underline-offset-4">
                     <router-link v-if="menu.to !== undefined" :to="menu.to !== undefined ? menu.to : ''">{{ menu.name
                     }}</router-link>
                     <div v-else @click.stop style="cursor: auto">{{ menu.name }}</div>
                   </div>
                   <svg v-if="menu.subMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="1" stroke="currentColor" class="w-4 h-4 ml-3 mt-2 transition duration-150 ease-in-out "
+                    stroke-width="1" stroke="currentColor" class="w-4 h-4 ml-3 mt-1 transition duration-150 ease-in-out "
                     :class="displayedIndex === index ? 'transform -rotate-180' : ''">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                   <div class="absolute left-72 space-y-4 invisible group-hover:visible">
-                    <button v-for="subMenu in menu.subMenu"
-                      class="text-[20px] hover:underline w-56 text-left">
+                    <button v-for="subMenu in menu.subMenu" class="text-[16px] hover:underline w-56 text-left">
                       <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                     </button>
                   </div>

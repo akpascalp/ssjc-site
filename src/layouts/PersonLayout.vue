@@ -1,15 +1,15 @@
 <template>
-  <div class="grid pr-12">
+  <div class="grid pr-24">
     <div class="grid grid-cols-2">
-      <div class="text-[36px] font-bold pl-24 w-3">{{ title }}
+      <div class="text-[36px] pl-24 w-3"><b>{{ title }}</b>
       </div>
       <div>
         <div v-for="data in dataList">
-          <p class="text-[20px] font-bold pb-2">{{ data.title }}</p>
+          <p class="text-[24px] pb-2"><b>{{ data.title }}</b></p>
           <p v-for="description in data.description" class="text-[18px] pb-2">{{ description }}</p>
           <hr class="pb-2">
         </div>
-        <div class="text-[20px] pt-12">
+        <div class="text-[16px] pt-12">
           {{ descriptionText }}
         </div>
       </div>

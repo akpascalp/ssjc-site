@@ -44,7 +44,7 @@
       <template #button>Book A Session</template>
     </Bloc1>
 
-    <div class="grid grid-cols-3 py-4">
+    <div class="grid grid-cols-3 py-4 pb-16">
       <img src="/img_2.png" class="col-start-2 col-span-2" />
     </div>
 
@@ -116,7 +116,7 @@
             "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
           </p>
           <hr class="py-6 pr-12" />
-          <p class="text-[18px] pr-16 pb-16 mr-12">
+          <p class="text-[16px] pr-16 pb-16 mr-12">
             Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
             also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
             firmly withstood the trials of life.
@@ -136,7 +136,7 @@
       <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
         <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <button class="btn-primary ml-72 text-white">
+        <button class="btn-primary ml-72 text-white px-16">
           Contact Us
         </button>
       </div>
@@ -205,7 +205,7 @@ export default {
         descriptionText: "A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In 2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.",
         img: "/img_7.png"
       }, {
-        name: "SORAYA FERHANI NGUYEN",
+        name: "Soraya Ferhani Nguyen",
         dataList: [{
           title: "World Cup Cadets",
           description: ["3rd: Tournoi de France, Paris. U52. 2003"]
