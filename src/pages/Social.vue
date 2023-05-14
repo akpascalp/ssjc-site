@@ -2,7 +2,7 @@
   <div>
     <div class="grid grid-cols-3 px-24">
       <img src="@/assets/social.png" class="font-barlow text-[48px] py-16 place-self-center col-span-3" />
-      <img src="@/assets/img_7.png" class="place-self-center col-span-3 pb-12" />
+      <img src="/img_7.png" class="place-self-center col-span-3 pb-12" />
 
       <p class="font-barlow text-[56px]">Sponsoring</p>
       <p class="font-barlow text-[18px] col-span-2 pl-24">Why should you sponsor us?

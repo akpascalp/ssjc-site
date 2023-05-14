@@ -1,17 +1,15 @@
 <template>
   <div class="relative z-40">
-    <div class="fixed grid place-items-center w-20 h-screen inset-y-0 left-0 bg-gray-50">
-      <button class="mb-48 w-10 h-10 relative focus:outline-none" @click="showMenu = !showMenu">
+    <div class="fixed grid place-items-center w-20 h-screen inset-y-0 left-0">
+      <button class="mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
+        @click="showMenu = !showMenu">
         <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <span aria-hidden="true"
             class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
             :class="{ 'rotate-45': showMenu, ' -translate-y-1.5': !showMenu }"></span>
           <span aria-hidden="true"
-            class="block absolute  h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
-            :class="{ 'opacity-0': showMenu }"></span>
-          <span aria-hidden="true"
             class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out"
-            :class="{ '-rotate-45': showMenu, ' translate-y-1.5': !showMenu }"></span>
+            :class="{ '-rotate-45': showMenu, ' translate-y-0.5': !showMenu }"></span>
         </div>
       </button>
       <img src="@/assets/DOJO.png" />
