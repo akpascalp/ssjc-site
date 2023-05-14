@@ -24,16 +24,16 @@
           is a means for personal cultural attainment." Kano Jigoro test</i>
       </template>
       <template #text2>
-          Inspired by the Dojo essence, <b>Dojo House</b> of SSJC is a venue for learning, research, and the practice of
-          martial arts.
-          <br/>
-          <br/>
-          It is conceived and crafted according to traditional Japanese dojo codes and meets the French Judo Federation’s
-          safety standards.
-          <br />
-          <br />
-          <b>Dojo House</b> is a zen haven for practicing martial arts and for self-improvement, open to all ages (kids
-          and adults) and to all levels of practitioners: a <i>place for immersive learning</i>.
+        Inspired by the Dojo essence, <b>Dojo House</b> of SSJC is a venue for learning, research, and the practice of
+        martial arts.
+        <br />
+        <br />
+        It is conceived and crafted according to traditional Japanese dojo codes and meets the French Judo Federation’s
+        safety standards.
+        <br />
+        <br />
+        <b>Dojo House</b> is a zen haven for practicing martial arts and for self-improvement, open to all ages (kids
+        and adults) and to all levels of practitioners: a <i>place for immersive learning</i>.
       </template>
       <template #button>Book A Session</template>
     </Bloc1>
@@ -83,20 +83,20 @@
       </template>
       <template #text2>
         Founded in 2020 by Soraya and Benjamin
-          Nguyen, former high-level judo athletes,
-          Dojo House is a place where one can not
-          only practice martial arts, but also work,
-          study and socialize.
-          <br />
-          <br />
-          The aim of our project is to combine work and
-          sports as a lifestyle. This is the discipline that
-          we've applied from a young age as student
-          athletes and later on as competitors who
-          also held challenging jobs.
-          <br />
-          <br />
-          Dojo House is a unique place to make improvements every day in your martial arts.
+        Nguyen, former high-level judo athletes,
+        Dojo House is a place where one can not
+        only practice martial arts, but also work,
+        study and socialize.
+        <br />
+        <br />
+        The aim of our project is to combine work and
+        sports as a lifestyle. This is the discipline that
+        we've applied from a young age as student
+        athletes and later on as competitors who
+        also held challenging jobs.
+        <br />
+        <br />
+        Dojo House is a unique place to make improvements every day in your martial arts.
       </template>
       <template #button>
         See All Disciplines
@@ -153,84 +153,8 @@
   <div>
     <img src="@/assets/founders.png" class="pt-28 pb-24 pl-24" />
 
-    <!-- Founder 1 -->
-
-    <div class="grid pr-12">
-      <div class="grid grid-cols-2">
-        <div class="font-barlow text-[36px] font-bold pl-24 w-3">Benjamin Nguyen</div>
-        <div>
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">National Senior Championships Vietnam</p>
-            <p class="font-barlow text-[18px] pb-2">1st: Vietnam Championships, Vung Tau. Team. 2022</p>
-          </div>
-          <hr class="pb-2">
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">National Cadet Championships</p>
-            <p class="font-barlow text-[18px] pb-2">1st: French U17 Championships, Paris. U55. 2002</p>
-          </div>
-          <hr class="pb-2">
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">National Senior Championships</p>
-            <p class="font-barlow text-[18px] pb-2">3rd: French Championships, Paris. U55. 2008</p>
-            <p class="font-barlow text-[18px] pb-2">3rd: French Championships, Clermont Ferrand. U60. 2007</p>
-          </div>
-          <hr class="pb-2">
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">International Tournaments</p>
-            <p class="font-barlow text-[18px] pb-2">2nd: Coupe Paris Kyoto. Open M.U66 2009</p>
-            <p class="font-barlow text-[18px] pb-2">1st: Coupe Paris Tokyo. U66. 2009</p>
-            <p class="font-barlow text-[18px] pb-2">1st: International U20 Tournament Open Sens U60. 2005</p>
-            <p class="font-barlow text-[18px] pb-2">3rd: Tournoi European Cadet Strasbourg U55. 2001</p>
-          </div>
-          <hr class="pb-2">
-          <div class="font-barlow text-[20px] pt-12">
-            A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In
-            2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.
-          </div>
-        </div>
-      </div>
-      <img src="@/assets/img_7.png" class="pt-12 pr-2 justify-self-end" />
-    </div>
-
-    <div class="py-12" />
-
-    <!-- Founder 2 -->
-
-    <div class="grid pr-12">
-      <div class="grid grid-cols-2">
-        <div class="font-barlow text-[36px] font-bold pl-24 w-3">SORAYA FERHANI NGUYEN</div>
-        <div>
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">World Cup Cadets</p>
-            <p class="font-barlow text-[18px] pb-2">3rd: Tournoi de France, Paris. U52. 2003</p>
-          </div>
-          <hr class="pb-2">
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">National Junior Championships</p>
-            <p class="font-barlow text-[18px] pb-2">1st: French U20 Championships Paris. U52. 2005</p>
-            <p class="font-barlow text-[18px] pb-2">3rd: French U20 Championships Paris. U52. 2006</p>
-          </div>
-          <hr class="pb-2">
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">International Junior Tournaments</p>
-            <p class="font-barlow text-[18px] pb-2">3rd: International U20 Tournament Open Sens U52. 2006</p>
-          </div>
-          <hr class="pb-2">
-          <div>
-            <p class="font-barlow text-[20px] font-bold pb-2">University Championships seniors</p>
-            <p class="font-barlow text-[18px] pb-2">1st: French UNSS Championships. U52. 2007</p>
-          </div>
-          <hr class="pb-2">
-          <div class="font-barlow text-[20px] pt-12">
-            A French former judo high level judo athlete, Soraya is the cofounder of the Dojo House.
-            Passionate about the sport, she started judo when she was 6 years old, and competed at a high level before
-            being forced to discontinue due to injury. The Dojo House is now a means for her to transmit her passion to
-            her students.
-          </div>
-        </div>
-      </div>
-      <img src="@/assets/img_8.png" class="pt-12 pr-2 justify-self-end" />
-    </div>
+    <PersonLayout v-for="person in founders" :title="person.name" :dataList="person.dataList"
+      :descriptionText="person.descriptionText" :img="person.img" />
 
   </div>
 </template>
@@ -238,11 +162,13 @@
 <script>
 import Carousel from '@/components/Carousel.vue';
 import Bloc1 from '@/layouts/Bloc1.vue';
+import PersonLayout from '@/layouts/PersonLayout.vue';
 
 export default {
   components: {
     Carousel,
-    Bloc1
+    Bloc1,
+    PersonLayout
   },
   data() {
     return {
@@ -255,6 +181,49 @@ export default {
       }, {
         src: 'src/assets/img_3.png',
         alt: 'Img 3'
+      }],
+      founders: [{
+        name: "Benjamin Nguyen",
+        dataList: [{
+          title: "National Senior Championships Vietnam",
+          description: ["1st: Vietnam Championships, Vung Tau. Team. 2022"]
+        }, {
+          title: "National Cadet Championships",
+          description: ["1st: French U17 Championships, Paris. U55. 2002"]
+        }, {
+          title: "National Senior Championships",
+          description: [
+            "3rd: French Championships, Paris. U55. 2008",
+            "3rd: French Championships, Clermont Ferrand. U60. 2007"
+          ]
+        }, {
+          title: "International Tournaments",
+          description: [
+            "2nd: Coupe Paris Kyoto. Open M.U66 2009",
+            "1st: Coupe Paris Tokyo. U66. 2009",
+            "1st: International U20 Tournament Open Sens U60. 2005",
+            "3rd: Tournoi European Cadet Strasbourg U55. 2001"
+          ]
+        }],
+        descriptionText: "A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In 2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.",
+        img: "/img_7.png"
+      }, {
+        name: "SORAYA FERHANI NGUYEN",
+        dataList: [{
+          title: "World Cup Cadets",
+          description: ["3rd: Tournoi de France, Paris. U52. 2003"]
+        }, {
+          title: "National Junior Championships",
+          description: ["1st: French U20 Championships Paris. U52. 2005", "3rd: French U20 Championships Paris. U52. 2006"]
+        }, {
+          title: "International Junior Tournaments",
+          description: ["3rd: International U20 Tournament Open Sens U52. 2006"]
+        }, {
+          title: "University Championships seniors",
+          description: ["1st: French UNSS Championships. U52. 2007"]
+        }],
+        descriptionText: "A French former judo high level judo athlete, Soraya is the cofounder of the Dojo House. Passionate about the sport, she started judo when she was 6 years old, and competed at a high level before being forced to discontinue due to injury. The Dojo House is now a means for her to transmit her passion to her students.",
+        img: "/img_8.png"
       }]
     }
   },
