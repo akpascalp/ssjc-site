@@ -13,6 +13,12 @@
 
   <!-- Our Concept -->
 
+  <div class="font-barlow text-[16px] my-6 px-24 grid grid-cols-2">
+    <p class="text-[#7C7C7C]">Introduction</p>
+    <p class="justify-self-end">House of SSJC</p>
+    <hr class="my-4 col-span-2">
+  </div>
+
   <div>
     <Bloc1>
       <template #title>
