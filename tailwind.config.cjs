@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'barlow': ['Barlow', 'sans-serif']
+        'futura': ['Futura Std', 'sans-serif']
       },
     },
   },

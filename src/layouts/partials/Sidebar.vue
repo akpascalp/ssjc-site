@@ -39,7 +39,7 @@
                   <br class="py-16" />
                   <br class="py-16" />
                 </div>
-                <button v-else class="font-barlow text-[20px] text-black text-left flex relative"
+                <button v-else class="text-[20px] text-black text-left flex relative"
                   @click="showMenu = false">
                   <div class="hover:underline underline-offset-4">
                     <router-link v-if="menu.to !== undefined" :to="menu.to !== undefined ? menu.to : ''">{{ menu.name
@@ -53,7 +53,7 @@
                   </svg>
                   <div class="absolute left-72 space-y-4 invisible group-hover:visible">
                     <button v-for="subMenu in menu.subMenu"
-                      class="font-barlow text-[20px] hover:underline w-56 text-left">
+                      class="text-[20px] hover:underline w-56 text-left">
                       <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                     </button>
                   </div>

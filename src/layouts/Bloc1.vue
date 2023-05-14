@@ -4,11 +4,11 @@
       <slot name="title" />
     </div>
     <div class="grid grid-cols-3 pt-2">
-      <p class="font-barlow text-[16px] col-start-2 mr-32">
+      <p class="text-[16px] text-[#7C7C7C] col-start-2 mr-32">
         <slot name="text1" />
       </p>
       <div class="-ml-20">
-        <p class="font-barlow text-[20px] pr-16 pb-12">
+        <p class="text-[16px] pr-24 pb-12">
           <slot name="text2" />
         </p>
         <button class="btn-primary">

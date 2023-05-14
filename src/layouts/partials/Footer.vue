@@ -2,14 +2,14 @@
   <footer class="bottom-0">
     <br class="py-12" />
     <div class="grid">
-      <button href="#" class="font-barlow text-[16px] place-self-end m-6" @click="toTop">Back to top</button>
+      <button href="#" class="text-[16px] place-self-end m-6" @click="toTop">Back to top</button>
     </div>
     <hr />
     <br class="py-24" />
 
     <div class="pl-12 py-4">
       <img src="@/assets/DOJO.png" class="w-8" />
-      <div class="grid grid-cols-6 pt-6 font-barlow text-[16px]">
+      <div class="grid grid-cols-6 pt-6 text-[16px]">
         <div class="col-span-2 mr-12">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore

@@ -6,7 +6,7 @@
 
   <br class="py-6" />
 
-  <div class="font-barlow text-[16px] my-6 px-24 grid grid-cols-2">
+  <div class="text-[16px] my-6 px-24 grid grid-cols-2">
     <p class="text-[#7C7C7C]">Introduction</p>
     <hr class="my-4 col-span-2">
   </div>
@@ -14,13 +14,13 @@
   <!-- Judo -->
 
   <div>
-    <img src="@/assets/Judo.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
+    <img src="@/assets/Judo.png" class="text-[48px] pt-8 pb-8 pl-24" />
     <div class="grid grid-cols-2 pt-2">
-      <p class="font-barlow text-[16px] mx-20">
+      <p class="text-[16px] mx-20">
         <i>“The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro</i>
       </p>
       <div class="">
-        <p class="font-barlow text-[20px] pr-16 pb-4">
+        <p class="text-[20px] pr-16 pb-4">
           Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
           also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
           firmly withstood the trials of life.
@@ -30,7 +30,7 @@
         </p>
         <div class="pr-16 pb-16">
           <h1>What is Judo?</h1>
-          <p class="font-barlow text-[20px]">
+          <p class="text-[20px]">
             Judo literally means "the gentle way." It is a sport developed from <u>JIU-JITSU</u>, a group of self-defence
             methods,
             but with certain harmful techniques eliminated or modified for safety's sake. Judo incorporates ethics, art
@@ -57,7 +57,7 @@
             <br />
           </p>
           <h1>Why Practice Judo?</h1>
-          <p class="font-barlow text-[20px]">
+          <p class="text-[20px]">
             Thanks to judo, you develop self-control, cooperative learning and respect for yourself and each other. Judo
             develops physical abilities such as flexibility, coordination, reflexes and balance as well as psychological
             abilities including focus, self-confidence and body awareness.
@@ -66,7 +66,7 @@
           <br />
 
           <h1>Who is it For?</h1>
-          <p class="font-barlow text-[20px]">
+          <p class="text-[20px]">
             Judo is a sport for everyone, including children from as young as 4 years old. According to UNESCO, “Judo is
             the
             best initial training sport for children and young people”. It can be practiced at any age and any level.
@@ -79,7 +79,7 @@
                 d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
                 clip-rule="evenodd" />
             </svg>
-            <p class="pl-4 font-barlow text-[18px]">View Coaches</p>
+            <p class="pl-4 text-[18px]">View Coaches</p>
           </button>
           <button class="flex items-center">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
@@ -87,7 +87,7 @@
                 d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
                 clip-rule="evenodd" />
             </svg>
-            <p class="pl-4 font-barlow text-[18px]">View Planning</p>
+            <p class="pl-4 text-[18px]">View Planning</p>
           </button>
         </div>
         <br>
@@ -117,9 +117,9 @@
 
   <!-- The Planning -->
   <div>
-    <img src="@/assets/planning.png" class="font-barlow text-[48px] pt-8 pb-8 pl-24" />
+    <img src="@/assets/planning.png" class="text-[48px] pt-8 pb-8 pl-24" />
     <div class="grid grid-cols-2 pl-24">
-      <div class="font-barlow text-[30px] font-bold mr-96">
+      <div class="text-[30px] font-bold mr-96">
         <ul>
           <li>Monday,</li>
           <li>Wednesday,</li>
@@ -128,8 +128,8 @@
       </div>
       <ul class="divide-y pr-20">
         <li v-for="classData in planning" class="grid grid-cols-2 items-center py-4">
-          <p class="font-barlow text-[28px] font-bold">{{ classData.time }}</p>
-          <p class="font-barlow text-[18px] justify-self-end">{{ classData.name }}</p>
+          <p class="text-[28px] font-bold">{{ classData.time }}</p>
+          <p class="text-[18px] justify-self-end">{{ classData.name }}</p>
         </li>
       </ul>
     </div>
@@ -138,10 +138,10 @@
   <div class="relative">
     <div class="relative bg-[#F6F6F6] pt-24 pb-80 grid justify-items-center gap-14 -bottom-40">
       <img src="@/assets/citation.png" class="w-4" />
-      <div class="font-barlow text-[16px]">
+      <div class="text-[16px]">
         Dojo House of SSJC
       </div>
-      <div class="font-barlow text-[36px] w-1/2 text-center">
+      <div class="text-[36px] w-1/2 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua
       </div>
@@ -153,7 +153,7 @@
 
   <div class="py-8" />
 
-  <div class="font-barlow text-[16px] px-72 w-4/5">
+  <div class="text-[16px] px-72 w-4/5">
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -163,7 +163,7 @@
   <div class="py-12" />
 
   <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-    <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
+    <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
     <button class="btn-primary text-white ml-72">
       Book a Session

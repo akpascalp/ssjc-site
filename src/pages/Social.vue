@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="grid grid-cols-3 px-24">
-      <img src="@/assets/social.png" class="font-barlow text-[48px] py-16 place-self-center col-span-3" />
+      <img src="@/assets/social.png" class="text-[48px] py-16 place-self-center col-span-3" />
       <img src="/img_7.png" class="place-self-center col-span-3 pb-12" />
 
-      <p class="font-barlow text-[56px]">Sponsoring</p>
-      <p class="font-barlow text-[18px] col-span-2 pl-24">Why should you sponsor us?
+      <p class="text-[56px]">Sponsoring</p>
+      <p class="text-[18px] col-span-2 pl-24">Why should you sponsor us?
         Sponsoring the Dojo House will allow kids in precarious conditions to learn a martial art with great values and
         will
         give them access to a unique framework. At the Dojo House we also have long term goal. We want to contribute to
@@ -15,9 +15,9 @@
       </p>
 
 
-      <div class="font-barlow text-[18px] col-span-2 col-start-2 pl-24">
+      <div class="text-[18px] col-span-2 col-start-2 pl-24">
         <br />
-        <p class="font-barlow text-[28px] pb-3">Sponsoring Benefits</p>
+        <p class="text-[28px] pb-3">Sponsoring Benefits</p>
         A company's contribution as a sponsor will:
         <ul class="list-disc pl-12 pt-3">
           <li>help company employees gain discounted access to dojo activities</li>
@@ -33,11 +33,11 @@
       <img src="@/assets/img_3.png" class="col-span-2 pl-24 pt-12" />
 
 
-      <img src="@/assets/vision.png" class="font-barlow text-[48px] place-self-center col-span-3 py-16" />
-      <p class="col-span-1 col-start-2 -mx-40 font-barlow text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:
+      <img src="@/assets/vision.png" class="text-[48px] place-self-center col-span-3 py-16" />
+      <p class="col-span-1 col-start-2 -mx-40 text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:
         Our Vision’s Key Points</p>
       <hr class="col-span-1 col-start-2 -mx-40 pt-12" />
-      <p class="col-span-1 col-start-2 -mx-40 font-barlow text-[16px] text-center pb-16">The Dojo House aims to welcome
+      <p class="col-span-1 col-start-2 -mx-40 text-[16px] text-center pb-16">The Dojo House aims to welcome
         everyone.
         Since we are a private organization, the companies would be essential partners to make social diversity possible.
         Our social program keeps the dojo’s doors open to everyone.

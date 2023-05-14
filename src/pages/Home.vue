@@ -4,16 +4,16 @@
       <source src="@/assets/test-video.mp4" type="video/mp4">
     </video> -->
     <img src="@/assets/img_1.png" class="h-screen object-cover" />
-    <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-barlow">A School Of Life</p>
-    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-barlow">DOJO HOUSE OF SSJC</p>
-    <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-barlow">Scroll down to learn more</p>
+    <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-light">A School Of Life</p>
+    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-light">DOJO HOUSE OF SSJC</p>
+    <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-light">Scroll down to learn more</p>
   </div>
 
   <br class="py-6" />
 
   <!-- Our Concept -->
 
-  <div class="font-barlow text-[16px] my-6 px-24 grid grid-cols-2">
+  <div class="font-light text-[16px] my-6 px-24 grid grid-cols-2">
     <p class="text-[#7C7C7C]">Introduction</p>
     <p class="justify-self-end">House of SSJC</p>
     <hr class="my-4 col-span-2">
@@ -22,12 +22,12 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="@/assets/our_concept.png" class="font-barlow text-[48px]" />
+        <img src="@/assets/our_concept.png" class="font-light text-[48px]" />
       </template>
       <template #text1>
         <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact,
           it
-          is a means for personal cultural attainment." Kano Jigoro test</i>
+          is a means for personal cultural attainment." Kano Jigoro</i>
       </template>
       <template #text2>
         Inspired by the Dojo essence, <b>Dojo House</b> of SSJC is a venue for learning, research, and the practice of
@@ -49,23 +49,14 @@
     </div>
 
     <div class="pb-24">
-      <div class="bg-[#F6F6F6] mx-24 py-24 grid grid-cols-3">
+      <div class="bg-[#F6F6F6] mx-20 py-20 grid grid-cols-3">
         <img src="@/assets/citation.png" class="mx-24" />
         <div>
-          <p class="font-barlow text-[18px] font-bold col-span-2">
-            A dojo represents, in its very essence, an exceptional, energetic space: a sacred location.
-            It is still a place where we respect the moral values of judo and the tradition of the original martial art,
-            as defined by Kano Jigoro shihan in 1882.
+          <p class="text-[24px] col-span-2">
+            <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</b>
             <br />
-            <br />
-            The dojo is a place where the student, as well as the instructor, can develop their personality and discover a
-            step by step art of living.
-            <br />
-            <br />
-            By pushing open the doors of the dojo, the practitioner leaves their daily life outside to become enriched
-            internally, with a free spirit, with the content of the teaching.
           </p>
-          <p class="font-barlow pt-16">
+          <p class="pt-16">
             IJF
           </p>
         </div>
@@ -81,7 +72,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="@/assets/martial_art_school.png" class="font-barlow text-[48px]">
+        <img src="@/assets/martial_art_school.png" class="text-[48px]">
       </template>
       <template #text1>
         <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
@@ -121,11 +112,11 @@
         <img src="@/assets/img_4.png" class="pt-8 pb-8 pl-24" />
         <div class="col-span-2">
           <img src="@/assets/Judo.png" class="pt-4 pb-24" />
-          <p class="font-barlow text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
+          <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
             "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
           </p>
           <hr class="py-6 pr-12" />
-          <p class="font-barlow text-[18px] pr-16 pb-16 mr-12">
+          <p class="text-[18px] pr-16 pb-16 mr-12">
             Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
             also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
             firmly withstood the trials of life.
@@ -143,7 +134,7 @@
       <img src="@/assets/img_5.png" class="relative -top-64 left-36 -mb-48" />
 
       <div class="bg-[url('@/assets/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-        <p class="font-barlow pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
+        <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         <button class="btn-primary ml-72 text-white">
           Contact Us
