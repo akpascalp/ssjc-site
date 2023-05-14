@@ -1,6 +1,6 @@
 <template>
   <div class="relative z-40">
-    <div class="fixed grid place-items-center w-20 h-screen inset-y-0 left-0">
+    <div class="fixed grid place-items-center w-[120px] h-screen inset-y-0 left-0">
       <button class="mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
         @click="showMenu = !showMenu">
         <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -20,7 +20,7 @@
     </div>
   </div>
   <TransitionRoot as="template" :show="showMenu">
-    <Dialog as="div" class="fixed left-20 inset-0 z-30" @close="showMenu = false">
+    <Dialog as="div" class="fixed left-[120px] inset-0 z-30" @close="showMenu = false">
       <TransitionChild as="template" enter="transition-opacity ease-linear duration-300" enter-from="opacity-0"
         enter-to="opacity-100" leave="transition-opacity ease-linear duration-300" leave-from="opacity-100"
         leave-to="opacity-0">

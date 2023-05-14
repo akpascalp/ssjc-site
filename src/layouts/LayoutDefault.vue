@@ -2,11 +2,11 @@
     <div class="flex flex-col h-full">
         <div class="flex flex-1">
             <SiteSidebar />
-            <main class="pl-20 z-0 overflow-x-hidden">
+            <main class="pl-[120px] z-0 overflow-x-hidden">
                 <router-view />
             </main>
         </div>
-        <SiteFooter class="pl-20" />
+        <SiteFooter class="pl-[120px]" />
     </div>
 </template>
 
