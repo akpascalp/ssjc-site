@@ -38,7 +38,8 @@
                   <div class="m-48" />
                 </div>
                 <button v-else class="text-[16px] text-black text-left flex relative" @click="showMenu = false">
-                  <div class="hover:underline underline-offset-4">
+                  <div class="transition ease-in-out duration-100"
+                    :class="displayedIndex !== null && (menus[displayedIndex].subMenu && displayedIndex !== index) ? 'opacity-25' : 'opacity-100'">
                     <router-link v-if="menu.to !== undefined" :to="menu.to !== undefined ? menu.to : ''">{{ menu.name
                     }}</router-link>
                     <div v-else @click.stop style="cursor: auto">{{ menu.name }}</div>
@@ -49,7 +50,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                   <div class="absolute left-72 space-y-4 invisible group-hover:visible">
-                    <button v-for="subMenu in menu.subMenu" class="text-[16px] hover:underline w-56 text-left">
+                    <button v-for="subMenu in menu.subMenu" class="text-[16px] w-56 text-left">
                       <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                     </button>
                   </div>

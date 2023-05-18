@@ -5,7 +5,7 @@
     </video> -->
     <img src="/img_1.png" class="h-screen object-cover" />
     <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-light">A School Of Life</p>
-    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-light">DOJO HOUSE OF SSJC</p>
+    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-light">Dojo House of SSJC</p>
     <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-light">Scroll down to learn more</p>
   </div>
 
@@ -44,7 +44,7 @@
       <template #button>Book A Session</template>
     </Bloc1>
 
-    <div class="grid grid-cols-3 py-4 pb-16">
+    <div class="grid grid-cols-3 pt-4 pb-16 mr-12 pl-12">
       <img src="/img_2.png" class="col-start-2 col-span-2" />
     </div>
 
