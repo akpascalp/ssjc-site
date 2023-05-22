@@ -4,16 +4,16 @@
       <source src="/test-video.mp4" type="video/mp4">
     </video> -->
     <img src="/img_1.png" class="h-screen object-cover" />
-    <p class="absolute top-[324px] left-[128px] text-[24px] text-white font-light">A School Of Life</p>
-    <p class="absolute top-[356px] left-[128px] text-[48px] text-white font-light">Dojo House of SSJC</p>
-    <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white font-light">Scroll down to learn more</p>
+    <p class="absolute top-[324px] left-[128px] text-[24px] text-white">A School Of Life</p>
+    <p class="absolute top-[356px] left-[128px] text-[48px] text-white">Dojo House of SSJC</p>
+    <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white">Scroll down to learn more</p>
   </div>
 
   <br class="py-6" />
 
   <!-- Our Concept -->
 
-  <div class="font-light text-[16px] my-6 px-24 grid grid-cols-2">
+  <div class="text-[16px] my-6 px-24 grid grid-cols-2">
     <p class="text-[#7C7C7C]">Introduction</p>
     <p class="justify-self-end">House of SSJC</p>
     <hr class="my-4 col-span-2">
@@ -22,7 +22,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="/our_concept.png" class="font-light text-[48px]" />
+        <img src="/our_concept.png" class="text-[48px]" />
       </template>
       <template #text1>
         <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact,

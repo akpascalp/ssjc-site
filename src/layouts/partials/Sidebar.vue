@@ -38,22 +38,27 @@
                   <div class="m-48" />
                 </div>
                 <button v-else class="text-[16px] text-black text-left flex relative" @click="showMenu = false">
-                  <div class="transition ease-in-out duration-100"
-                    :class="displayedIndex !== null && (menus[displayedIndex].subMenu && displayedIndex !== index) ? 'opacity-25' : 'opacity-100'">
+                  <div class="transition ease-in-out duration-100" @mouseover="displayedSubIndex = null"
+                    :class="(displayedSubIndex !== null && displayedIndex !== index) ? 'opacity-25' : 'opacity-100'">
                     <router-link v-if="menu.to !== undefined" :to="menu.to !== undefined ? menu.to : ''">{{ menu.name
                     }}</router-link>
-                    <div v-else @click.stop style="cursor: auto">{{ menu.name }}</div>
+                    <button v-else @click="displayedSubIndex = index" @click.stop>{{ menu.name }}</button>
                   </div>
                   <svg v-if="menu.subMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1" stroke="currentColor" class="w-4 h-4 ml-3 mt-1 transition duration-150 ease-in-out "
-                    :class="displayedIndex === index ? 'transform -rotate-180' : ''">
+                    :class="displayedSubIndex == index ? 'transform -rotate-180' : ''">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
-                  <div class="absolute left-72 space-y-4 invisible group-hover:visible">
-                    <button v-for="subMenu in menu.subMenu" class="text-[16px] w-56 text-left">
-                      <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
-                    </button>
-                  </div>
+                  <TransitionRoot as="template" enter="transition ease-in-out duration-300"
+                    enter-from="-translate-x-20 opacity-0" enter-to="translate-x-0 opacity-100"
+                    leave="transition ease-in-out duration-300" leave-from="translate-x-0 opacity-100"
+                    leave-to="-translate-x-20 opacity-0" :show="displayedSubIndex === index">
+                    <div class="absolute left-72 space-y-4">
+                      <button v-for="subMenu in menu.subMenu" class="text-[16px] w-56 text-left">
+                        <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
+                      </button>
+                    </div>
+                  </TransitionRoot>
                 </button>
               </div>
             </div>
@@ -113,7 +118,8 @@ export default {
         'name': 'Member',
         'to': '/member'
       }],
-      displayedIndex: null
+      displayedIndex: null,
+      displayedSubIndex: null
     }
   },
   methods: {
