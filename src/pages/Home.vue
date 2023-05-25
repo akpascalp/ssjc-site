@@ -49,14 +49,25 @@
     </div>
 
     <div class="pb-24">
-      <div class="bg-[#F6F6F6] mx-20 py-20 grid grid-cols-3">
-        <img src="/citation.png" class="mx-24" />
+      <div class="bg-[#F6F6F6] mx-20 py-20 flex items-start">
+        <img src="/citation.png" class="mx-20" />
         <div>
-          <p class="text-[24px] col-span-2">
-            <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</b>
+          <p class="text-[20px] mr-20 text-center">
+            “A dojo represents, in its very essence, an exceptional, energetic space: a sacred location.
+            <br />
+            It is still a place where we respect the moral values of judo and the tradition of the original martial art,
+            as defined by Kano Jigoro shihan in 1882.
+            <br />
+            <br />
+            The dojo is a place where the student, as well as the instructor, can develop their personality and discover a
+            step by step art of living.
+            <br />
+            <br />
+            By pushing open the doors of the dojo, the practitioner leaves their daily life outside to become enriched
+            internally, with a free spirit, with the content of the teaching.”
             <br />
           </p>
-          <p class="pt-16">
+          <p class="pt-16 text-center">
             IJF
           </p>
         </div>
