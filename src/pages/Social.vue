@@ -6,6 +6,7 @@
 
       <p class="text-[36px]">Sponsoring</p>
       <p class="text-[16px] col-span-2 pl-24">Why should you sponsor us?
+        <br />
         Sponsoring the Dojo House will allow kids in precarious conditions to learn a martial art with great values and
         will
         give them access to a unique framework. At the Dojo House we also have long term goal. We want to contribute to

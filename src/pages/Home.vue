@@ -137,17 +137,17 @@
             incompatible
             with procedures that would go against the spirit of the sport.
           </p>
-          <button class="btn-primary">
+          <button class="btn-secondary">
             Book A Session
           </button>
         </div>
       </div>
       <img src="/img_5.png" class="relative -top-64 left-36 -mb-48" />
 
-      <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-        <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
+      <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96 w-[32rem]">
+        <p class="pl-72 mr-[500px] text-white text-[24px] pt-20 pb-12">Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <button class="btn-primary ml-72 text-white px-16">
+        <button class="btn-secondary ml-72 text-white px-16">
           Contact Us
         </button>
       </div>

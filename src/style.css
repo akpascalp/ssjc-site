@@ -4,7 +4,10 @@
 
 @layer components {
   .btn-primary {
-    @apply font-futura text-[16px] px-10 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-2 ring-gray-300 transition duration-200 ease-in-out;
+    @apply font-futura text-[16px] px-14 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-2 ring-gray-300 transition duration-200 ease-in-out;
+  }
+  .btn-secondary {
+    @apply font-futura text-[16px] text-white bg-black px-14 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-2 ring-gray-300 transition duration-200 ease-in-out;
   }
 }
 
