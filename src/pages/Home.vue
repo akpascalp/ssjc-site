@@ -118,40 +118,41 @@
   <!-- Judo -->
 
   <div>
-    <div class="relative">
-      <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
-        <img src="/img_4.png" class="pt-8 pb-8 pl-24" />
-        <div class="col-span-2">
-          <img src="/Judo.png" class="pt-4 pb-24" />
-          <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
-            "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
-          </p>
-          <hr class="py-6 pr-12" />
-          <p class="text-[16px] pr-16 pb-16 mr-12">
-            Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
-            also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
-            firmly withstood the trials of life.
-            Respect, honesty, self-control, friendship, courtesy, honor, courage and modesty - the eight values of the
-            judo
-            moral code are taught to every judoka from the first time they enter a dojo. This code is entirely
-            incompatible
-            with procedures that would go against the spirit of the sport.
-          </p>
-          <button class="btn-secondary">
-            Book A Session
-          </button>
-        </div>
-      </div>
-      <img src="/img_5.png" class="relative -top-64 left-36 -mb-48" />
-
-      <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96 w-[32rem]">
-        <p class="pl-72 mr-[500px] text-white text-[24px] pt-20 pb-12">Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-        <button class="btn-secondary ml-72 text-white px-16">
-          Contact Us
+    <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
+      <img src="/img_4.png" class="pt-8 pb-8 pl-24" />
+      <div class="col-span-2">
+        <img src="/Judo.png" class="pt-4 pb-24" />
+        <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
+          "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
+        </p>
+        <hr class="py-6 pr-12" />
+        <p class="text-[16px] pr-16 pb-16 mr-12">
+          Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
+          also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
+          firmly withstood the trials of life.
+          Respect, honesty, self-control, friendship, courtesy, honor, courage and modesty - the eight values of the
+          judo
+          moral code are taught to every judoka from the first time they enter a dojo. This code is entirely
+          incompatible
+          with procedures that would go against the spirit of the sport.
+        </p>
+        <button class="btn-secondary">
+          Book A Session
         </button>
       </div>
     </div>
+  </div>
+
+  <div class="flex place-content-center">
+    <img src="/img_5.png" class="relative -top-64 -mb-48" width="972" />
+  </div>
+
+  <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
+    <p class="pl-72 mr-[500px] text-white text-[24px] pt-20 pb-12">Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    <button class="btn-secondary ml-72 text-white px-16">
+      Contact Us
+    </button>
   </div>
 
   <br class="py-6" />
