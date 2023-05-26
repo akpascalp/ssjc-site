@@ -20,17 +20,11 @@
     </div>
   </div>
   <TransitionRoot as="template" :show="showMenu">
-    <Dialog as="div" class="fixed left-[120px] inset-0 z-30" @close="showMenu = false">
-      <TransitionChild as="template" enter="transition-opacity ease-linear duration-300" enter-from="opacity-0"
-        enter-to="opacity-100" leave="transition-opacity ease-linear duration-300" leave-from="opacity-100"
-        leave-to="opacity-0">
-        <DialogOverlay class="fixed inset-0 bg-gray-600 bg-opacity-50" />
-      </TransitionChild>
-
-      <TransitionChild as="template" enter="transition ease-in-out duration-300" enter-from="-translate-x-full"
+    <Dialog as="div" class="fixed left-[120px] top-0 w-full z-30" @close="showMenu = false">
+      <TransitionChild as="template" enter="transition ease-in-out duration-300" enter-from="-translate-x-20 opacity-50"
         enter-to="translate-x-0" leave="transition ease-in-out duration-300" leave-from="translate-x-0"
-        leave-to="-translate-x-full">
-        <div class="relative grid grid-cols-2 w-full max-w-3xl bg-white">
+        leave-to="-translate-x-20 opacity-0">
+        <div class="relative grid grid-cols-2 bg-white">
           <div class="relative flex flex-col flex-1">
             <div class="sticky top-0 left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
               <div v-for="(menu, index) in menus" class="group" @mouseover="displayedIndex = index">
@@ -42,7 +36,9 @@
                     :class="(displayedSubIndex !== null && displayedIndex !== index) ? 'opacity-25' : 'opacity-100'">
                     <router-link v-if="menu.to !== undefined" :to="menu.to !== undefined ? menu.to : ''">{{ menu.name
                     }}</router-link>
-                    <button v-else @click="displayedSubIndex = index" @click.stop>{{ menu.name }}</button>
+                    <button v-else
+                      @click="displayedSubIndex === index ? displayedSubIndex = null : displayedSubIndex = index"
+                      @click.stop>{{ menu.name }}</button>
                   </div>
                   <svg v-if="menu.subMenu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     stroke-width="1" stroke="currentColor" class="w-4 h-4 ml-3 mt-1 transition duration-150 ease-in-out "
@@ -63,6 +59,7 @@
               </div>
             </div>
           </div>
+          <img src="/img_menu.png"/>
         </div>
       </TransitionChild>
 
