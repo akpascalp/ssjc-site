@@ -5,11 +5,10 @@
       </div>
       <div>
         <div v-for="data in dataList">
-          <p class="text-[24px] pb-2"><b>{{ data.title }}</b></p>
-          <p v-for="description in data.description" class="text-[18px] pb-2">{{ description }}</p>
+          <p class="text-[24px] py-6"><b>{{ data }}</b></p>
           <hr class="pb-2">
         </div>
-        <div class="text-[16px] pt-12">
+        <div class="text-[16px] pt-20">
           {{ descriptionText }}
         </div>
       </div>

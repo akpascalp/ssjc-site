@@ -204,45 +204,19 @@ export default {
       ],
       coaches: [{
         name: "Benjamin Nguyen",
-        dataList: [{
-          title: "National Senior Championships Vietnam",
-          description: ["1st: Vietnam Championships, Vung Tau. Team. 2022"]
-        }, {
-          title: "National Cadet Championships",
-          description: ["1st: French U17 Championships, Paris. U55. 2002"]
-        }, {
-          title: "National Senior Championships",
-          description: [
-            "3rd: French Championships, Paris. U55. 2008",
-            "3rd: French Championships, Clermont Ferrand. U60. 2007"
-          ]
-        }, {
-          title: "International Tournaments",
-          description: [
-            "2nd: Coupe Paris Kyoto. Open M.U66 2009",
-            "1st: Coupe Paris Tokyo. U66. 2009",
-            "1st: International U20 Tournament Open Sens U60. 2005",
-            "3rd: Tournoi European Cadet Strasbourg U55. 2001"
-          ]
-        }],
-        descriptionText: "A French entrepreneur and ex high level judo athlete, Benjamin created his own graphics studio in 2010. In 2018, he came back to his grandparents’ country, Vietnam, to start his new project the Dojo House.",
+        dataList: [
+          "1st French U17 Championships Paris. U55. 2002",
+          "1st Coupe Paris Tokyo. U66. 2009",
+          "1st division athlete from 2009 to 2017"],
+        descriptionText: "Benjamin began practicing judo at the age of 4, thanks to his black belt uncle. He quickly became passionate about the discipline and the extraordinary sensations that judo provides. This martial art taught him how to focus and gain self-confidence. At the age of 15, he joined the sports-study program in Orléans. During this period, he won the French Cadet Championship (-17 years) and earned a spot on the French national team. Alongside his studies, he continued practicing judo at an elite level and joined the senior elite at the age of 19 (1st division). At 25, freshly graduated with a Master's degree in management, Benjamin founded a graphic design company with two partners while still pursuing high-level judo. At 31, Benjamin decided to retire from competition to embark on a new challenge with Soraya: spreading the teachings of judo and its values in Vietnam. In October 2020, the Dojo House of SSJC came to life.",
         img: "/img_7.png"
       }, {
-        name: "SORAYA FERHANI NGUYEN",
-        dataList: [{
-          title: "World Cup Cadets",
-          description: ["3rd: Tournoi de France, Paris. U52. 2003"]
-        }, {
-          title: "National Junior Championships",
-          description: ["1st: French U20 Championships Paris. U52. 2005", "3rd: French U20 Championships Paris. U52. 2006"]
-        }, {
-          title: "International Junior Tournaments",
-          description: ["3rd: International U20 Tournament Open Sens U52. 2006"]
-        }, {
-          title: "University Championships seniors",
-          description: ["1st: French UNSS Championships. U52. 2007"]
-        }],
-        descriptionText: "A French former judo high level judo athlete, Soraya is the cofounder of the Dojo House. Passionate about the sport, she started judo when she was 6 years old, and competed at a high level before being forced to discontinue due to injury. The Dojo House is now a means for her to transmit her passion to her students.",
+        name: "Soraya Ferhani Nguyen",
+        dataList: [
+          "3rd Tournoi de France Paris. U52. 2003",
+          "1st French U20 Championships Paris. U52. 2005",
+          "1st French UNSS Championships. U52. 2007"],
+        descriptionText: "Soraya's journey in judo began at the age of 6, where her love for this unique martial art blossomed. Thriving as a Minimes competitor, she later joined a renowned sport and study center in Bretigny sur Orge (France). Soraya's dedication and skill led her to claim two national championships in the Juniors category, competing at -52 kg, and earning numerous selections to represent the French team. Alongside her judo pursuits, she pursued studies in geography and communication, ultimately earning a Master's degree in communication. Judo is more than just a passion to Soraya; it serves as a vessel to impart the values and wisdom she has acquired throughout her years of training and competition, inspiring others to experience the physical and mental rewards of this discipline. At Dojo House, Soraya has discovered a distinctive and captivating approach to sharing her passion with students through her teaching methods.",
         img: "/img_8.png"
       }]
     }
