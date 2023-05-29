@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="grid grid-cols-3 px-24">
-      <img src="/social.png" class="text-[48px] py-16 place-self-center col-span-3" />
-      <img src="/img_7.png" class="place-self-center col-span-3 pb-12" />
+  <div class="px-12">
+    <img src="/social.png" class="text-[48px] py-12" />
+    <img src="/img_7.png" class="place-self-center pb-24" width="1200" />
 
+    <div class="grid grid-cols-3 px-24">
       <p class="text-[36px]">Sponsoring</p>
       <p class="text-[16px] col-span-2 pl-24">Why should you sponsor us?
         <br />
@@ -15,8 +15,7 @@
         The sponsors will also help the Dojo House to achieve this goal.
       </p>
 
-
-      <div class="text-[18px] col-span-2 col-start-2 pl-24">
+      <div class="text-[16px] col-span-2 col-start-2 pl-24">
         <br />
         <p class="text-[28px] pb-3">Sponsoring Benefits</p>
         A company's contribution as a sponsor will:
@@ -29,25 +28,36 @@
           <li>allow brochures to be displayed at the dojo</li>
         </ul>
       </div>
+    </div>
 
-      <img src="/img_2.png" class="pt-12" />
-      <img src="/img_3.png" class="col-span-2 pl-24 pt-12" />
+    <div class="flex gap-24 pt-24 h-[600px] place-content-center">
+      <img src="/img_2.png" />
+      <img src="/img_3.png" />
+    </div>
 
 
-      <img src="/vision.png" class="text-[48px] place-self-center col-span-3 py-16" />
-      <p class="col-span-1 col-start-2 -mx-40 text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:
+    <div class="grid grid-cols-1 place-content-center pt-24 mx-64">
+      <p class="text-[48px] text-center">Our Vision</p>
+      <br />
+      <p class="text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:
         Our Vision’s Key Points</p>
-      <hr class="col-span-1 col-start-2 -mx-40 pt-12" />
-      <p class="col-span-1 col-start-2 -mx-40 text-[16px] text-center pb-16">The Dojo House aims to welcome
+      <hr class="pt-12" />
+      <p class="text-[16px] text-center pb-16">The Dojo House aims to welcome
         everyone.
         Since we are a private organization, the companies would be essential partners to make social diversity possible.
         Our social program keeps the dojo’s doors open to everyone.
         Thanks to corporate sponsors, individuals who normally wouldn't be able to afford a membership would gain access
         to our equipment and expertise. To make it possible we collaborate with NGO (Name) who share the same vision.
       </p>
-      <button class="btn-primary col-start-2 justify-self-center">
+      <button class="btn-primary justify-self-center">
         More Infos
       </button>
+    </div>
+
+    <div class="flex flex-wrap gap-12 object-none items-start pt-24">
+      <img src="/img_11.png" class="object-none" />
+      <img src="/img_12.png" class="object-none" />
+      <img src="/img_13.png" class="object-none" />
     </div>
 
     <Bloc1>
