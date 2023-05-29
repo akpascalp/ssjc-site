@@ -12,9 +12,11 @@
       <div class="grid grid-cols-6 pt-6 text-[16px]">
         <div class="col-span-2 mr-12">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
+            Welcome to Dojo House, your family's ultimate destination for martial arts excellence. Step into a world where
+            children and adults alike discover the power within. Our premier facility offers a harmonious blend of
+            training, work, and community, creating an environment where families thrive together. Unleash your potential,
+            strengthen your bonds, and embark on a journey of growth. Join us at Dojo House and experience the
+            transformative power of martial arts for the whole family.
           </p>
           <div class="flex gap-x-4 pt-4">
             <button>
