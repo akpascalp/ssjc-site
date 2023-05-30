@@ -63,14 +63,8 @@
 </template>
         
 <script>
-import Carousel from '@/components/Carousel.vue';
-import Bloc1 from '@/layouts/Bloc1.vue';
 
 export default {
-  components: {
-    Carousel,
-    Bloc1
-  },
   data() {
     return {
       fields: [
