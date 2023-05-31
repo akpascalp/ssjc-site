@@ -54,7 +54,7 @@
       </button>
     </div>
 
-    <div class="flex flex-wrap gap-12 object-none items-start pt-24">
+    <div class="flex flex-wrap gap-20 object-none items-start pt-24">
       <img src="/img_11.png" class="object-none" />
       <img src="/img_12.png" class="object-none" />
       <img src="/img_13.png" class="object-none" />
