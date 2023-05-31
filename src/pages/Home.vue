@@ -13,7 +13,7 @@
 
   <!-- Our Concept -->
 
-  <div class="text-[16px] my-6 px-24 grid grid-cols-2">
+  <div class="text-[16px] my-3 px-24 grid grid-cols-2">
     <p class="text-[#7C7C7C]">Introduction</p>
     <p class="justify-self-end">House of SSJC</p>
     <hr class="my-4 col-span-2">
@@ -22,7 +22,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <p class="text-[64px]">Our Concept</p>
+        <OurConcept />
       </template>
       <template #text1>
         <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact,
@@ -83,7 +83,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <p class="text-[64px]">The Martial<br/> Art School</p>
+        <p class="text-[64px]">The Martial<br /> Art School</p>
       </template>
       <template #text1>
         <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
@@ -172,12 +172,14 @@
 import Carousel from '@/components/Carousel.vue';
 import Bloc1 from '@/layouts/Bloc1.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
+import OurConcept from '@/components/animatedTitles/OurConcept.vue';
 
 export default {
   components: {
     Carousel,
     Bloc1,
-    PersonLayout
+    PersonLayout,
+    OurConcept
   },
   data() {
     return {
@@ -209,10 +211,6 @@ export default {
         img: "/img_8.png"
       }]
     }
-  },
-  methods: {
   }
 }
 </script>
-
-<!-- WIP modulariser founders + planning -->

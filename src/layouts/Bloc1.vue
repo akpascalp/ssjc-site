@@ -1,6 +1,6 @@
 <template>
-  <div class="py-8">
-    <div class="py-8 pl-24">
+  <div class="py-4">
+    <div class="pt-2 pb-4 pl-24">
       <slot name="title" />
     </div>
     <div class="grid grid-cols-3 pt-2">
