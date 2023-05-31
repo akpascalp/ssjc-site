@@ -1,6 +1,6 @@
 <template>
   <div class="relative w-screen pl-16 bg-white">
-    <img src="/img_9.png" class="h-screen object-cover" />
+    <img src="/judo_bg.png" class="h-screen object-cover rounded" />
   </div>
 
 
@@ -14,7 +14,7 @@
   <!-- Judo -->
 
   <div>
-    <img src="/Judo.png" class="text-[48px] pt-8 pb-8 pl-24" />
+    <p class="text-[64px] pt-8 pb-8 pl-24">Judo</p>
     <div class="grid grid-cols-2 pt-2">
       <p class="text-[16px] mx-20">
         <i>“The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro</i>
@@ -108,7 +108,7 @@
   <!-- The Coaches -->
 
   <div>
-    <img src="/coaches.png" class="pt-28 pb-24 pl-24" />
+    <p class="text-[64px] pt-28 pb-24 pl-24">The Coaches</p>
 
     <PersonLayout v-for="person in coaches" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
@@ -117,7 +117,7 @@
 
   <!-- The Planning -->
   <div>
-    <img src="/planning.png" class="text-[48px] pt-8 pb-8 pl-24" />
+    <p class="text-[64px] pt-8 pb-8 pl-24">The Planning</p>
     <div class="grid grid-cols-2 pl-24">
       <div class="text-[36px] mr-96">
         <ul>

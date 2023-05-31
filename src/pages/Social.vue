@@ -62,7 +62,7 @@
 
     <Bloc1>
       <template #title>
-        <img src="/helping.png" />
+        <p class="text-[64px]">Helping those<br/>in needs</p>
       </template>
       <template #text1>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

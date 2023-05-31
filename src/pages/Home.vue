@@ -22,7 +22,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="/our_concept.png" class="text-[48px]" />
+        <p class="text-[64px]">Our Concept</p>
       </template>
       <template #text1>
         <i>"Judo in reality is not a mere sport or game. I regard it as a principle of life, art and science. In fact,
@@ -83,7 +83,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <img src="/martial_art_school.png" class="text-[48px]">
+        <p class="text-[64px]">The Martial<br/> Art School</p>
       </template>
       <template #text1>
         <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
@@ -121,7 +121,7 @@
     <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
       <img src="/img_4.png" class="pt-8 pb-8 pl-24" />
       <div class="col-span-2">
-        <img src="/Judo.png" class="pt-4 pb-24" />
+        <p class="text-[64px] pt-4 pb-24">Judo</p>
         <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
           "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
         </p>
@@ -160,7 +160,7 @@
   <!-- The Founders -->
 
   <div>
-    <img src="/founders.png" class="pt-28 pb-24 pl-24" />
+    <p class="text-[64px] pt-28 pb-24 pl-24">The Founders</p>
 
     <PersonLayout v-for="person in founders" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
