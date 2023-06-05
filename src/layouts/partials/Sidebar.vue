@@ -88,8 +88,8 @@ export default {
           'name': 'Judo',
           'to': '/judo'
         }, {
-          'name': 'Shadow Judo',
-          'to': '/shadow-judo'
+          'name': 'BJJ',
+          'to': '/bjj'
         }]
       }, {
         'name': 'News',
