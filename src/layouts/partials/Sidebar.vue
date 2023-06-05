@@ -93,6 +93,9 @@ export default {
         }, {
           'name': 'Shadow Judo',
           'to': '/shadow-judo'
+        }, {
+          'name': 'Taïso',
+          'to': '/taiso'
         }]
       }, {
         'name': 'News',

@@ -15,6 +15,7 @@ import Home from '@/pages/Home.vue'
 import Judo from '@/pages/Judo.vue'
 import BJJ from '@/pages/BJJ.vue'
 import ShadowJudo from '@/pages/ShadowJudo.vue'
+import Taiso from '@/pages/Taiso.vue'
 import Social from '@/pages/Social.vue'
 import Contact from '@/pages/Contact.vue'
 import Planning from '@/pages/Planning.vue'
@@ -50,6 +51,13 @@ export const routes = [
     meta: { title: 'Shadow Judo' },
     children: [
       { path: '', component: ShadowJudo, name: 'shadowJudo', meta: { title: 'Shadow Judo' } },
+    ]
+  }, {
+    path: '/taiso',
+    component: LayoutDefault,
+    meta: { title: 'Taiso' },
+    children: [
+      { path: '', component: Taiso, name: 'taiso', meta: { title: 'Taiso' } },
     ]
   }, {
     path: '/social',
