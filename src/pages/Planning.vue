@@ -2,7 +2,7 @@
   <div class="px-12">
     <div>
 
-      <p class="text-[48px] py-16 w-screen">The Planning</p>
+      <p class="text-[64px] py-16 w-screen">The Planning & Tarification</p>
 
       <div class="flex gap-20">
         <div>
