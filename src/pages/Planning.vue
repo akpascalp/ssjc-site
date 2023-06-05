@@ -1,53 +1,89 @@
 <template>
   <div class="px-12">
-    <p class="text-[48px] py-16 w-screen">The Planning</p>
+    <div>
 
-    <div class="flex gap-20">
-      <div>
-        <label class="pr-8">Select a day</label>
-        <select class="p-4 pr-16 border-[#D2D2D2]">
-          <option v-for="day in filters.days">{{ day }}</option>
-        </select>
+      <p class="text-[48px] py-16 w-screen">The Planning</p>
+
+      <div class="flex gap-20">
+        <div>
+          <label class="pr-8">Select a day</label>
+          <select class="p-4 pr-16 border-[#D2D2D2]">
+            <option v-for="day in filters.days">{{ day }}</option>
+          </select>
+        </div>
+        <div>
+          <label class="pr-8">Select a level</label>
+          <select class="p-4 pr-16 border-[#D2D2D2]">
+            <option v-for="level in filters.levels">{{ level }}</option>
+          </select>
+        </div>
       </div>
-      <div>
-        <label class="pr-8">Select a level</label>
-        <select class="p-4 pr-16 border-[#D2D2D2]">
-          <option v-for="level in filters.levels">{{ level }}</option>
-        </select>
+
+      <hr class="mt-24" />
+
+      <div class="flex gap-12 my-12 ">
+        <div v-for="category in categories" class="flex gap-4 items-center">
+          <svg width="16" height="16">
+            <rect width="16" height="16" rx="6" :style="'fill:' + category.color" />
+          </svg>
+          <p>{{ category.title }}</p>
+        </div>
+      </div>
+
+      <hr class="mt-12" />
+
+      <div v-for="(data, index) in dataAll">
+        <p class="text-[24px] my-12">{{ data.day }}</p>
+
+        <ul class="text-[16px]">
+          <li v-for="activity in data.activities" class="grid grid-cols-2 py-3 hover:bg-slate-50">
+            <p>{{ activity.text }}</p>
+            <div class="flex gap-4 items-center justify-self-end">
+              <svg width="16" height="16">
+                <rect width="16" height="16" rx="6" :style="'fill:' + activity.color" />
+              </svg>
+              <p>{{ activity.category }}</p>
+            </div>
+          </li>
+        </ul>
+
+        <hr v-if="index !== dataAll.length - 1" class="mt-6" />
       </div>
     </div>
 
-    <hr class="mt-24" />
+    <div class="h-36"></div>
 
-    <div class="flex gap-12 my-12 ">
-      <div v-for="category in categories" class="flex gap-4 items-center">
-        <svg width="16" height="16">
-          <rect width="16" height="16" rx="6" :style="'fill:' + category.color" />
-        </svg>
-        <p>{{ category.title }}</p>
+    <div>
+      <p class="text-[64px] pb-20">Pricing System</p>
+      <div class="grid grid-cols-2">
+        <p class="text-[16px] text-[#7C7C7C] mr-80">Our pricing system is divided into 3 different modes:</p>
+        <div class="flex flex-col gap-8 justify-self-end">
+          <p class="text-[24px]">Pack system (per term or annually):</p>
+          <p class="text-[16px]">This system applies to all types of classes, including cardio, core training (taïso,
+            Interval training, Shadow Judo), as well as Judo and Brazilian Jiu Jitsu. If you join during a term, we will
+            calculate the fee proportionately based on the remaining number of classes.</p>
+          <hr class="mx-8" />
+          <p class="text-[24px]">À la carte system:</p>
+          <p class="text-[16px]">We offer 10 and 20 class cards specifically for cardio and core training (taïso,
+            Interval training, Shadow Judo) sessions.</p>
+          <hr class="mx-8" />
+          <p class="text-[24px]">Drop-in system:</p>
+          <p class="text-[16px]">You have the freedom to come and attend classes whenever you want and pay per session.
+            This method applies to all classes.</p>
+        </div>
+        <div class="pt-24 mr-24 text-[#7C7C7C] text-[16px] pb-16">
+          <p>
+            We strive to provide maximum flexibility in our pricing system to cater to the needs and preferences of each
+            individual.<br/>
+            Please don't hesitate to reach out to us if you have any questions or need further information. We are excited
+            to welcome you to Dojo House and support you on your journey.
+          </p>
+        </div>
+        <button class="btn-primary w-56 col-start-1">
+          Contact Us
+        </button>
       </div>
     </div>
-
-    <hr class="mt-12" />
-
-    <div v-for="(data, index) in dataAll">
-      <p class="text-[24px] my-12">{{ data.day }}</p>
-
-      <ul class="text-[16px]">
-        <li v-for="activity in data.activities" class="grid grid-cols-2 py-3 hover:bg-slate-50">
-          <p>{{ activity.text }}</p>
-          <div class="flex gap-4 items-center justify-self-end">
-            <svg width="16" height="16">
-              <rect width="16" height="16" rx="6" :style="'fill:' + activity.color" />
-            </svg>
-            <p>{{ activity.category }}</p>
-          </div>
-        </li>
-      </ul>
-
-      <hr  v-if="index !== dataAll.length - 1" class="mt-6" />
-    </div>
-
   </div>
 </template>
           
