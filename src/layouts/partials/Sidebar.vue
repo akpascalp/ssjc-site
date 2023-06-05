@@ -90,6 +90,9 @@ export default {
         }, {
           'name': 'BJJ',
           'to': '/bjj'
+        }, {
+          'name': 'Shadow Judo',
+          'to': '/shadow-judo'
         }]
       }, {
         'name': 'News',

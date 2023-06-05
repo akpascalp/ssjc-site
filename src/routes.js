@@ -14,6 +14,7 @@ import LayoutDefault from '@/layouts/LayoutDefault.vue'
 import Home from '@/pages/Home.vue'
 import Judo from '@/pages/Judo.vue'
 import BJJ from '@/pages/BJJ.vue'
+import ShadowJudo from '@/pages/ShadowJudo.vue'
 import Social from '@/pages/Social.vue'
 import Contact from '@/pages/Contact.vue'
 import Planning from '@/pages/Planning.vue'
@@ -42,6 +43,13 @@ export const routes = [
     meta: { title: 'BJJ' },
     children: [
       { path: '', component: BJJ, name: 'bjj', meta: { title: 'BJJ' } },
+    ]
+  }, {
+    path: '/shadow-judo',
+    component: LayoutDefault,
+    meta: { title: 'Shadow Judo' },
+    children: [
+      { path: '', component: ShadowJudo, name: 'shadowJudo', meta: { title: 'Shadow Judo' } },
     ]
   }, {
     path: '/social',
