@@ -3,7 +3,7 @@
     <div class="absolute w-4/5 flex flex-col items-center pt-8">
       <p class="text-[16px] justify-self-center">House of SSJC</p>
       <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0" y1="2" x2="100" y2="2" stroke="white" stroke-width='0.03'/>
+        <line x1="0" y1="2" x2="100" y2="2" stroke="white" stroke-width='0.03' />
       </svg>
     </div>
     <div class="absolute h-screen flex flex-col justify-center items-center">
@@ -27,59 +27,39 @@
     <p class="text-[64px] pt-8 pb-8 pl-24">Judo</p>
     <div class="grid grid-cols-2 pt-2">
       <p class="text-[16px] mx-20">
-        <i>“The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro</i>
+        <i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua” ??</i>
       </p>
       <div class="">
-        <p class="text-[20px] pr-16 pb-4">
-          Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
-          also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
-          firmly withstood the trials of life.
-          Respect, honesty, self-control, friendship, courtesy, honor, courage and modesty - the eight values of the judo
-          moral code are taught to every judoka from the first time they enter a dojo. This code is entirely incompatible
-          with procedures that would go against the spirit of the sport.
-        </p>
-        <div class="pr-16 pb-16">
-          <h1>What is Judo?</h1>
-          <p class="text-[20px]">
-            Judo literally means "the gentle way." It is a sport developed from <u>JIU-JITSU</u>, a group of self-defence
-            methods,
-            but with certain harmful techniques eliminated or modified for safety's sake. Judo incorporates ethics, art
-            and
-            science into a sport that uses the opponent’s strength against themselves. Judo was developed in June 1882 in
-            Tokyo, Japan, by Dr Jigoro Kano in a small hall that became the Kodokan, the mecca of judo. Kano defined the
-            purpose of judo as the training of one's mind and body to use energy efficiently, in competition and everyday
-            life, toward the goals of physical development, contest proficiency and mental and moral development.
-            <br />
-            <br />
-            Judo is a combat sport in which the object is to <u>throw</u> (<b>Nage Waza</b>) your opponent properly but
-            also help you to
-            learn how to fall.
-            <br />
-            <br />
-
-            The second part of Judo is <b>Ne Waza</b>, the object is to hold on the ground, or otherwise force an opponent
-            to
-            submit (using methods such as arm bars and chokes*) using the minimum required physical exertion.
-            <br />
-            *only for adults
-
-            <br />
-            <br />
-          </p>
-          <h1>Why Practice Judo?</h1>
-          <p class="text-[20px]">
-            Thanks to judo, you develop self-control, cooperative learning and respect for yourself and each other. Judo
-            develops physical abilities such as flexibility, coordination, reflexes and balance as well as psychological
-            abilities including focus, self-confidence and body awareness.
-          </p>
+        <div class="text-[16px] pr-16 pb-16">
+          <p>
+          <p class="font-bold">What is Judo?</p>
+          Judo, derived from Jujutsu, is a sport that embraces the philosophy of "the gentle way." It evolved from a group
+          of self-defense techniques, with harmful elements removed or modified for safety. Judo combines ethics, art, and
+          science, using the opponent's strength against them. In June 1882, Dr. Jigoro Kano founded Judo in Tokyo, Japan,
+          establishing the Kodokan, which became the mecca of Judo. Kano's vision for Judo encompassed the training of the
+          mind and body, promoting efficient energy usage in both competition and daily life. The goals include physical
+          development, contest proficiency, and mental and moral growth.
           <br />
           <br />
-
-          <h1>Who is it For?</h1>
-          <p class="text-[20px]">
-            Judo is a sport for everyone, including children from as young as 4 years old. According to UNESCO, “Judo is
-            the
-            best initial training sport for children and young people”. It can be practiced at any age and any level.
+          <p class="font-bold">Judo Techniques:</p>
+          Judo consists of two main components. Nage Waza focuses on throwing techniques, teaching proper ways to execute
+          throws while also emphasizing the essential skill of falling safely. <br />
+          The second part is Ne Waza, which focuses on ground techniques, including holds and submissions, aiming to
+          immobilize or force an opponent to surrender using minimal physical force (adults only for techniques like arm
+          bars and chokes).
+          <br />
+          <br />
+          <p class="font-bold">Why Practice Judo?</p>
+          Judo cultivates self-control, cooperative learning, and respect for oneself and others. Through Judo,
+          individuals develop physical abilities such as flexibility, coordination, reflexes, balance, as well as
+          psychological skills like focus, self-confidence, and body awareness.
+          <br />
+          <br />
+          <p class="font-bold">Who Can Practice Judo?</p>
+          Judo is suitable for children starting from the age of 4. <br />
+          UNESCO recognizes Judo as the ideal initial sport for young children. However, Judo can be practiced by
+          individuals of any age or skill level, allowing for continuous growth and development.
           </p>
         </div>
         <div class="flex flex-col gap-3">
@@ -108,8 +88,8 @@
       </div>
     </div>
     <div class="grid grid-cols-2 pt-20 items-start place-items-center mx-8">
-      <img src="/img_2.png" class="w-2/3" />
-      <img src="/img_10.png" class="w-2/3" />
+      <img src="/img_2.png" class="w-3/4" />
+      <img src="/img_10.png" />
     </div>
   </div>
 
@@ -123,26 +103,6 @@
     <PersonLayout v-for="person in coaches" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
 
-  </div>
-
-  <!-- The Planning -->
-  <div>
-    <p class="text-[64px] pt-8 pb-8 pl-24">The Planning</p>
-    <div class="grid grid-cols-2 pl-24">
-      <div class="text-[36px] mr-96">
-        <ul>
-          <li><b>Monday,</b></li>
-          <li><b>Wednesday,</b></li>
-          <li><b>Friday</b></li>
-        </ul>
-      </div>
-      <ul class="divide-y pr-20">
-        <li v-for="classData in planning" class="grid grid-cols-2 items-center py-4">
-          <p class="text-[24px]"><b>{{ classData.time }}</b></p>
-          <p class="text-[16px] justify-self-end">{{ classData.name }}</p>
-        </li>
-      </ul>
-    </div>
   </div>
 
   <div class="relative">
@@ -202,16 +162,6 @@ export default {
         src: '/img_3.png',
         alt: 'Img 3'
       }],
-      planning: [
-        { time: '6:00 AM', name: 'Fundamentals' },
-        { time: '6:00 AM', name: 'Basics' },
-        { time: '7:00 AM', name: 'Pro Training' },
-        { time: '8:00 AM', name: 'Kids 3-5 / Kids 5-7' },
-        { time: '3:00 PM', name: 'Fundamentals' },
-        { time: '4:00 PM', name: 'Basics' },
-        { time: '5:00 PM', name: 'Pro Training' },
-        { time: '6:00 PM', name: 'Kids 3-5 / Kids 5-7' },
-      ],
       coaches: [{
         name: "Benjamin Nguyen",
         dataList: [
