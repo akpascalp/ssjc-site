@@ -1,6 +1,16 @@
 <template>
-  <div class="relative w-screen pl-16 bg-white">
-    <img src="/judo_bg.png" class="h-screen object-cover rounded" />
+  <div class="relative flex h-screen bg-white justify-center text-white">
+    <div class="absolute w-4/5 flex flex-col items-center pt-8">
+      <p class="text-[16px] justify-self-center">House of SSJC</p>
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <line x1="0" y1="2" x2="100" y2="2" stroke="white" stroke-width='0.03'/>
+      </svg>
+    </div>
+    <div class="absolute h-screen flex flex-col justify-center items-center">
+      <p class="text-[48px]">Judo</p>
+      <p class="text-[16px]">Scroll down to learn more</p>
+    </div>
+    <img src="/judo_bg.png" class="object-cover rounded" />
   </div>
 
 
