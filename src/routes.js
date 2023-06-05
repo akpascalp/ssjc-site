@@ -16,6 +16,7 @@ import Judo from '@/pages/Judo.vue'
 import BJJ from '@/pages/BJJ.vue'
 import ShadowJudo from '@/pages/ShadowJudo.vue'
 import Taiso from '@/pages/Taiso.vue'
+import IntervalTraining from '@/pages/IntervalTraining.vue'
 import Social from '@/pages/Social.vue'
 import Contact from '@/pages/Contact.vue'
 import Planning from '@/pages/Planning.vue'
@@ -58,6 +59,13 @@ export const routes = [
     meta: { title: 'Taiso' },
     children: [
       { path: '', component: Taiso, name: 'taiso', meta: { title: 'Taiso' } },
+    ]
+  }, {
+    path: '/interval-training',
+    component: LayoutDefault,
+    meta: { title: 'Interval Training' },
+    children: [
+      { path: '', component: IntervalTraining, name: 'intervalTraining', meta: { title: 'IntervalTraining' } },
     ]
   }, {
     path: '/social',

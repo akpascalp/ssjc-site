@@ -29,7 +29,7 @@
             <div class="sticky top-0 left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
               <div v-for="(menu, index) in menus" class="group" @mouseover="displayedIndex = index">
                 <div v-if="menu.name === '_break'">
-                  <div class="m-48" />
+                  <div class="m-96" />
                 </div>
                 <button v-else class="text-[16px] text-black text-left flex relative" @click="showMenu = false">
                   <div class="transition ease-in-out duration-100" @mouseover="displayedSubIndex = null"
@@ -96,10 +96,10 @@ export default {
         }, {
           'name': 'Taïso',
           'to': '/taiso'
+        }, {
+          'name': 'Interval Training',
+          'to': '/interval-training'
         }]
-      }, {
-        'name': 'News',
-        'to': '/news'
       }, {
         'name': 'Social',
         'to': '/social',
@@ -107,19 +107,10 @@ export default {
         'name': 'Planning & Tarification',
         'to': '/planning'
       }, {
-        'name': 'Shop',
-        'to': '/shop'
-      }, {
         'name': '_break'
       }, {
         'name': 'Contact',
         'to': '/contact'
-      }, {
-        'name': 'Press',
-        'to': '/press'
-      }, {
-        'name': 'Member',
-        'to': '/member'
       }],
       displayedIndex: null,
       displayedSubIndex: null
