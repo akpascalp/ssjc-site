@@ -86,7 +86,7 @@
       </div>
     </div>
     <div class="grid grid-cols-2 pt-20 items-start place-items-center mx-8">
-      <img src="/img_2.png" class="w-3/4" />
+      <img src="/img_12.png" class="w-3/4" />
       <img src="/img_10.png" />
     </div>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="px-12">
-    <p class="text-[48px] py-16">Social</p>
+    <p class="text-[64px] py-16">Social</p>
     <img src="/img_7.png" class="place-self-center pb-24" width="1200" />
 
     <div class="grid grid-cols-3 px-24">
@@ -31,7 +31,7 @@
     </div>
 
     <div class="flex gap-24 pt-24 h-[600px] place-content-center">
-      <img src="/img_2.png" />
+      <img src="/img_12.png" />
       <img src="/img_3.png" />
     </div>
 

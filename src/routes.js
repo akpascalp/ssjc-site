@@ -20,6 +20,7 @@ import IntervalTraining from '@/pages/IntervalTraining.vue'
 import Social from '@/pages/Social.vue'
 import Contact from '@/pages/Contact.vue'
 import Planning from '@/pages/Planning.vue'
+import WorkingSpace from '@/pages/WorkingSpace.vue'
 import NotFound404 from '@/pages/NotFound404.vue'
 
 /** @type {import('vue-router').RouterOptions['routes']} */
@@ -87,6 +88,13 @@ export const routes = [
     meta: { title: 'Planning' },
     children: [
       { path: '', component: Planning, name: 'planning', meta: { title: 'Planning' } },
+    ]
+  }, {
+    path: '/working-space',
+    component: LayoutDefault,
+    meta: { title: 'Workng Space' },
+    children: [
+      { path: '', component: WorkingSpace, name: 'workingSpace', meta: { title: 'Working Space' } },
     ]
   },
   { path: '/:path(.*)', component: NotFound404 },

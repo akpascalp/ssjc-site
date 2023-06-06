@@ -104,6 +104,9 @@ export default {
         'name': 'Social',
         'to': '/social',
       }, {
+        'name': 'Working Space',
+        'to': '/working-space',
+      }, {
         'name': 'Planning & Tarification',
         'to': '/planning'
       }, {
