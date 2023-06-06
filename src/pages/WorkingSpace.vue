@@ -60,33 +60,50 @@
 
       <div v-for="coworker in coworkers" class="flex flex-col gap-y-6 pb-12">
         <hr class="pt-6" />
-        <div class="flex justify-between items-center">
-          <p class="text-[24px]">{{ coworker.title }}</p>
-          <button class="flex">
-            <p>Expand</p>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor"
-              class="w-4 h-4 ml-3 mt-1 transition duration-150 ease-in-out">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-          </button>
-        </div>
-        <img :src="coworker.img" class="object-cover py-8" />
-        <div class="grid grid-cols-2 gap-y-8 gap-x-8 pr-8">
-          <p v-if="coworker.subtitle" class="text-[24px] text-[#7C7C7C] pb-8">{{ coworker.subtitle }}</p>
-          <p class="text-[16px] mr-56" :class="coworker.subtitle ? 'text-[#7C7C7C] col-start-1' : 'col-start-2'"> {{
-            coworker.subtitle1 }}</p>
-          <div :class="coworker.subtitle ? 'text-[16px]' : 'text-[24px] text-[#7C7C7C]'" class="col-start-2"
-            v-html="coworker.subtitle2"></div>
-        </div>
+        <Disclosure v-slot="{ open }">
+          <DisclosureButton class="flex justify-between items-center">
+            <p class="text-[24px]">{{ coworker.title }}</p>
+            <button class="flex">
+              <p class="text-[16px]">Expand</p>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                stroke="currentColor" class="w-4 h-4 ml-3 mt-1 transition duration-150 ease-in-out"
+                :class="open ? 'rotate-180 transform' : ''">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </button>
+          </DisclosureButton>
+          <transition
+            enter-active-class="transition duration-200 ease-in-out"
+            enter-from-class="transform opacity-50 -translate-y-16"
+            enter-to-class="transform opacity-100"
+            leave-active-class="transition duration-200 ease-in-out"
+            leave-from-class="transform opacity-50"
+            leave-to-class="transform opacity-0 -translate-y-8">
+            <DisclosurePanel>
+              <img :src="coworker.img" class="object-cover py-8" />
+              <div class="grid grid-cols-2 gap-y-8 gap-x-8 pr-8">
+                <p v-if="coworker.subtitle" class="text-[24px] text-[#7C7C7C] pb-8">{{ coworker.subtitle }}</p>
+                <p class="text-[16px] mr-56" :class="coworker.subtitle ? 'text-[#7C7C7C] col-start-1' : 'col-start-2'"> {{
+                  coworker.subtitle1 }}</p>
+                <div :class="coworker.subtitle ? 'text-[16px]' : 'text-[24px] text-[#7C7C7C]'" class="col-start-2"
+                  v-html="coworker.subtitle2"></div>
+              </div>
+            </DisclosurePanel>
+          </transition>
+        </Disclosure>
       </div>
     </div>
   </div>
 </template>
       
 <script>
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 
 export default {
   components: {
+    Disclosure,
+    DisclosureButton,
+    DisclosurePanel
   },
   data() {
     return {
