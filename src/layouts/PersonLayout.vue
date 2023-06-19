@@ -8,9 +8,9 @@
           <p class="text-[24px] py-6"><b>{{ data }}</b></p>
           <hr class="pb-2">
         </div>
-        <div class="text-[16px] pt-20">
-          {{ descriptionText }}
-        </div>
+      </div>
+      <div class="text-[16px] pt-20 col-start-1 col-span-2 min-[1100px]:col-start-2">
+        {{ descriptionText }}
       </div>
     </div>
     <img :src="img" class="pt-12 pr-2 justify-self-end" />

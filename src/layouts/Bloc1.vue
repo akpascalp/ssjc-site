@@ -3,8 +3,8 @@
     <div class="pt-2 pb-4 pl-24">
       <slot name="title" />
     </div>
-    <div class="grid grid-cols-3 pt-2">
-      <p class="text-[16px] text-[#7C7C7C] col-start-2 mr-32">
+    <div class="grid min-[1100px]:grid-cols-3 grid-cols-2 pt-2">
+      <p class="text-[16px] text-[#7C7C7C] min-[1100px]:col-start-2 mr-32">
         <slot name="text1" />
       </p>
       <div class="-ml-20">

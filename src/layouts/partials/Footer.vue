@@ -10,7 +10,7 @@
     <div class="pl-12 py-4">
       <img src="/DOJO.png" class="w-8" />
       <div class="grid grid-cols-6 pt-6 text-[16px]">
-        <div class="col-span-2 mr-12">
+        <div class="col-span-2 min-[1100px]:mr-12">
           <p>
             Welcome to Dojo House, your family's ultimate destination for martial arts excellence. Step into a world where
             children and adults alike discover the power within. Our premier facility offers a harmonious blend of

@@ -36,7 +36,7 @@
     </div>
 
 
-    <div class="grid grid-cols-1 place-content-center pt-24 mx-64">
+    <div class="grid grid-cols-1 place-content-center pt-24 min-[1100px]:mx-64">
       <p class="text-[48px] text-center">Our Vision</p>
       <br />
       <p class="text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:

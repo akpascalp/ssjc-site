@@ -1,6 +1,6 @@
 <template>
   <div class="relative z-40">
-    <div class="fixed grid place-items-center w-[120px] h-screen inset-y-0 left-0">
+    <div class="fixed grid place-items-center w-[120px] h-screen inset-y-0 left-0 bg-white">
       <button class="mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
         @click="showMenu = !showMenu">
         <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -49,7 +49,7 @@
                     enter-from="-translate-x-20 opacity-0" enter-to="translate-x-0 opacity-100"
                     leave="transition ease-in-out duration-300" leave-from="translate-x-0 opacity-100"
                     leave-to="-translate-x-20 opacity-0" :show="displayedSubIndex === index">
-                    <div class="absolute left-72 space-y-4">
+                    <div class="absolute lg:ml-72 md:ml-48 space-y-4">
                       <button v-for="subMenu in menu.subMenu" class="text-[16px] w-56 text-left">
                         <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                       </button>
@@ -59,7 +59,7 @@
               </div>
             </div>
           </div>
-          <img src="/img_menu.png"/>
+          <img src="/img_menu.png" class="pr-20 bg-contain bg-center"/>
         </div>
       </TransitionChild>
 

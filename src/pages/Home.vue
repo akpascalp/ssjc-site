@@ -147,13 +147,9 @@
     <img src="/img_5.png" class="relative -top-64 -mb-48" width="972" />
   </div>
 
-  <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-    <p class="pl-72 mr-[500px] text-white text-[24px] pt-20 pb-12">Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    <button class="btn-secondary ml-72 text-white px-16">
-      Contact Us
-    </button>
-  </div>
+  <CallToAction
+    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    btnText="Contact Us" bgUrl="/img_6.png" />
 
   <br class="py-6" />
 
@@ -173,13 +169,15 @@ import Carousel from '@/components/Carousel.vue';
 import Bloc1 from '@/layouts/Bloc1.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
 import OurConcept from '@/components/animatedTitles/OurConcept.vue';
+import CallToAction from '@/components/CallToAction.vue';
 
 export default {
   components: {
     Carousel,
     Bloc1,
     PersonLayout,
-    OurConcept
+    OurConcept,
+    CallToAction
   },
   data() {
     return {

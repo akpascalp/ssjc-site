@@ -83,7 +83,7 @@
               <img :src="coworker.img" class="object-cover py-8" />
               <div class="grid grid-cols-2 gap-y-8 gap-x-8 pr-8">
                 <p v-if="coworker.subtitle" class="text-[24px] text-[#7C7C7C] pb-8">{{ coworker.subtitle }}</p>
-                <p class="text-[16px] mr-56" :class="coworker.subtitle ? 'text-[#7C7C7C] col-start-1' : 'col-start-2'"> {{
+                <p class="text-[16px] mr-56 max-[1100px]:mr-4" :class="coworker.subtitle ? 'text-[#7C7C7C] col-start-1' : 'col-start-2'"> {{
                   coworker.subtitle1 }}</p>
                 <div :class="coworker.subtitle ? 'text-[16px]' : 'text-[24px] text-[#7C7C7C]'" class="col-start-2"
                   v-html="coworker.subtitle2"></div>

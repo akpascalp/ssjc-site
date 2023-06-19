@@ -111,7 +111,7 @@
 
   <div class="py-8" />
 
-  <div class="text-[16px] px-72 w-4/5">
+  <div class="text-[16px] px-72 max-[1130px]:px-6 w-4/5">
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -120,23 +120,21 @@
 
   <div class="py-12" />
 
-  <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-    <p class="pl-72 mr-[600px] text-white text-[24px] pt-24 pb-12">Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-    <button class="btn-primary text-white ml-72">
-      Book a Session
-    </button>
-  </div>
+  <CallToAction
+    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+    btnText="Book a Session" bgUrl="/img_6.png" />
 </template>
     
 <script>
 import Carousel from '@/components/Carousel.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
+import CallToAction from '@/components/CallToAction.vue';
 
 export default {
   components: {
     Carousel,
-    PersonLayout
+    PersonLayout,
+    CallToAction
   },
   data() {
     return {
