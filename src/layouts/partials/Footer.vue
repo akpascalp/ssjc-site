@@ -5,12 +5,12 @@
       <button href="#" class="text-[16px] place-self-end m-6" @click="toTop"><b>Back to top</b></button>
     </div>
     <hr />
-    <br class="py-24" />
+    <br class="py-20" />
 
-    <div class="pl-12 py-4">
+    <div class="pl-12 py-4 text-[16px]">
       <img src="/DOJO.png" class="w-8" />
-      <div class="grid grid-cols-6 pt-6 text-[16px]">
-        <div class="col-span-2 min-[1100px]:mr-12">
+      <div class="grid grid-cols-6 pt-6">
+        <div class="col-span-2 -mr-8">
           <p>
             Welcome to Dojo House, your family's ultimate destination for martial arts excellence. Step into a world where
             children and adults alike discover the power within. Our premier facility offers a harmonious blend of
@@ -19,12 +19,10 @@
             transformative power of martial arts for the whole family.
           </p>
           <div class="flex gap-x-4 pt-4">
-            <button>
-              <img src="/fb.png" href="#" />
-            </button>
-            <button>
-              <img src="/instagram.png" href="#" />
-            </button>
+            <a href="https://www.facebook.com/DOJOHOUSEOFSSJC" target="_blank" rel="noopener noreferrer"><img
+                src="/fb.png"></a>
+            <a href="https://www.instagram.com/dojohouseofssjc/" target="_blank" rel="noopener noreferrer"><img
+                src="/instagram.png"></a>
           </div>
         </div>
         <div class="flex flex-col gap-y-2 col-start-4">
@@ -32,23 +30,32 @@
             <router-link to="/">Home</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
-            <router-link to="/disciplines">Disciplines</router-link>
+            <router-link to="/judo">Judo</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
-            <router-link to="/news">News</router-link>
+            <router-link to="/bjj">BJJ</router-link>
+          </div>
+          <div class="hover:underline underline-offset-4">
+            <router-link to="/shadow-judo">Shadow Judo</router-link>
+          </div>
+          <div class="hover:underline underline-offset-4">
+            <router-link to="/taiso">Taïso</router-link>
+          </div>
+          <div class="hover:underline underline-offset-4">
+            <router-link to="/interval-training">Interval Training</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
             <router-link to="/social">Social</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
+            <router-link to="/working-space">Working Space</router-link>
+          </div>
+          <div class="hover:underline underline-offset-4">
             <router-link to="/planning">Planning & Tarification</router-link>
           </div>
-          <div class="hover:underline underline-offset-4">
-            <router-link to="/shop">Shop</router-link>
-          </div>
         </div>
-        <div class="flex flex-col gap-y-2">
-          <div class="hover:underline underline-offset-4">
+        <div class="flex flex-col gap-y-2 text-[#606060]">
+          <div class="hover:underline underline-offset-4 text-">
             <router-link to="/contact">Contact</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
@@ -59,11 +66,11 @@
           </div>
         </div>
         <div class="flex flex-col gap-y-2">
-          <div class="hover:underline underline-offset-4">
-            <router-link to="/"><b>English</b></router-link>
+          <div class="hover:underline underline-offset-4 font-bold">
+            <router-link to="/">English</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
-            <router-link to="/">Vietnamese</router-link>
+            <router-link to="/">Tiếng Việt</router-link>
           </div>
         </div>
       </div>
@@ -83,4 +90,3 @@ export default {
   }
 }
 </script>
-  
