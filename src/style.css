@@ -4,10 +4,10 @@
 
 @layer components {
   .btn-primary {
-    @apply font-futura text-[16px] px-14 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-2 ring-gray-300 transition duration-200 ease-in-out disabled:opacity-75;
+    @apply font-futura text-[16px] px-14 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-1 ring-gray-300 transition duration-200 ease-in-out disabled:opacity-75 hover:bg-black hover:text-white;
   }
   .btn-secondary {
-    @apply font-futura text-[16px] text-white bg-black px-14 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-2 ring-gray-300 transition duration-200 ease-in-out disabled:opacity-75;
+    @apply font-futura text-[16px] text-white bg-black px-14 py-6 border-[#D2D2D2] border-solid border-2 hover:ring-2 ring-gray-300 transition duration-200 ease-in-out disabled:opacity-75 hover:bg-white hover:text-black;
   }
 }
 
