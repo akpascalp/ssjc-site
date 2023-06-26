@@ -21,9 +21,9 @@
   </div>
   <TransitionRoot as="template" :show="showMenu">
     <Dialog as="div" class="fixed left-[120px] top-0 w-full z-30" @close="showMenu = false">
-      <TransitionChild as="template" enter="transition ease-in-out duration-300" enter-from="-translate-x-20 opacity-50"
-        enter-to="translate-x-0" leave="transition ease-in-out duration-300" leave-from="translate-x-0"
-        leave-to="-translate-x-20 opacity-0">
+      <TransitionChild as="template" enter="transition ease-in-out duration-700" enter-from="-translate-x-60 opacity-50"
+        enter-to="translate-x-0" leave="transition ease-in-out duration-700" leave-from="translate-x-0"
+        leave-to="-translate-x-60 opacity-0">
         <div class="relative grid grid-cols-2 bg-white">
           <div class="relative flex flex-col flex-1">
             <div class="sticky top-0 left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
