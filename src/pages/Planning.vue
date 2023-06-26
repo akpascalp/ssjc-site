@@ -17,6 +17,12 @@
             <option v-for="level in filters.levels">{{ level }}</option>
           </select>
         </div>
+        <div>
+          <label class="pr-8">Select a discipline</label>
+          <select class="p-4 pr-16 border-[#D2D2D2]">
+            <option v-for="discipline in filters.disciplines">{{ discipline }}</option>
+          </select>
+        </div>
       </div>
 
       <hr class="mt-24" />
@@ -94,7 +100,8 @@ export default {
     return {
       filters: {
         days: ["All", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        levels: ["All", "Adults & Teens", "Kids"]
+        levels: ["All", "Adults & Teens", "Kids"],
+        disciplines: ["All", "Judo", "BJJ", "Shadow Judo", "Taïso", "Interval Training"],
       },
       categories: [{
         title: "Adults & Teens",
