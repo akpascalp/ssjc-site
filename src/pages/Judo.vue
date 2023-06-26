@@ -123,7 +123,7 @@
 
   <div class="py-8" />
 
-  <div class="text-[16px] px-72 max-[1130px]:px-6 w-4/5">
+  <div class="text-[16px] pl-80 max-[1130px]:px-6 w-4/5">
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur

@@ -1,11 +1,11 @@
 <template>
   <div class="grid pr-24">
     <div class="grid grid-cols-2">
-      <div class="text-[36px] pl-24 w-3"><b>{{ title }}</b>
+      <div class="text-[36px] pl-24 w-3 font-[500]">{{ title }}
       </div>
       <div>
         <div v-for="data in dataList">
-          <p class="text-[24px] py-6"><b>{{ data }}</b></p>
+          <p class="text-[24px] py-6">{{ data }}</p>
           <hr class="pb-2">
         </div>
       </div>
