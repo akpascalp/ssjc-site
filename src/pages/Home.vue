@@ -3,7 +3,7 @@
     <!-- <video autoplay muted loop class="h-screen object-cover">
       <source src="/test-video.mp4" type="video/mp4">
     </video> -->
-    <img src="/img_1.png" class="h-screen object-cover" />
+    <img src="/img_1.png" class="h-screen w-screen object-cover" />
     <p class="absolute top-[324px] left-[128px] text-[24px] text-white">A School Of Life</p>
     <p class="absolute top-[356px] left-[128px] text-[48px] text-white">Dojo House of SSJC</p>
     <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white">Scroll down to learn more</p>
