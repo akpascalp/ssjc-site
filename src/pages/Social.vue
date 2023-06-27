@@ -78,7 +78,7 @@
         est laborum."
       </template>
       <template #button>
-        See All Disciplines
+        More Infos
       </template>
     </Bloc1>
     <Carousel :images="images" />

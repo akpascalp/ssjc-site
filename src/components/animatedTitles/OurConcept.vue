@@ -1,5 +1,5 @@
 <template>
-  <svg @mouseover="animate" @mouseleave="reset" width="400" height="100">
+  <svg width="400" height="100" class="title-scroll">
     <text x="0" y="65" id="title" class="text-[64px]">
       Our Concept
     </text>
@@ -10,7 +10,14 @@
 
 <script>
 import gsap from 'gsap';
+import utils from '@/helpers/utils';
+
 export default {
+  mounted() {
+    window.addEventListener('scroll', () => {
+      utils.handleScrollAnimation(document.querySelector(".title-scroll"), 75, this.animate, this.reset);
+    })
+  },
   methods: {
     animate() {
       gsap.to("#underline", {
