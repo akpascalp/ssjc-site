@@ -75,7 +75,6 @@
     </div>
     <img src="/img_3.png" class="w-screen object-cover px-24 py-12" />
   </div>
-
   <br class="py-6" />
 
   <!-- The Martial Art School -->
@@ -83,7 +82,7 @@
   <div>
     <Bloc1>
       <template #title>
-        <p class="text-[64px]">The Martial<br /> Art School</p>
+        <TheMartialArtSchool />
       </template>
       <template #text1>
         <i>"Nothing under the sun is greater than education. By educating one person and sending him into the society of
@@ -169,6 +168,7 @@ import Carousel from '@/components/Carousel.vue';
 import Bloc1 from '@/layouts/Bloc1.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
 import OurConcept from '@/components/animatedTitles/OurConcept.vue';
+import TheMartialArtSchool from '@/components/animatedTitles/TheMartialArtSchool.vue';
 import CallToAction from '@/components/CallToAction.vue';
 
 export default {
@@ -177,6 +177,7 @@ export default {
     Bloc1,
     PersonLayout,
     OurConcept,
+    TheMartialArtSchool,
     CallToAction
   },
   data() {

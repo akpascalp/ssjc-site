@@ -1,58 +1,39 @@
 <template>
-  <svg width="400" height="100" class="title-scroll">
-    <text x="0" y="65" id="title" class="text-[64px]">
+  <svg width="400" height="100">
+    <text x="0" y="65" class="text-[64px]" id="concept-title">
       Our Concept
     </text>
-    <line x1="0" y1="80" x2="30" y2="80" stroke="black" stroke-width="5" opacity="0" id="underline" />
-    <line x1="0" y1="3" x2="30" y2="3" stroke="black" stroke-width="5" opacity="0" id="overline" />
+    <line x1="0" y1="80" x2="30" y2="80" stroke="black" stroke-width="5" opacity="0" id="concept-underline" />
+    <line x1="0" y1="3" x2="30" y2="3" stroke="black" stroke-width="5" opacity="0" id="concept-overline" />
   </svg>
 </template>
 
 <script>
 import gsap from 'gsap';
-import utils from '@/helpers/utils';
+import ScrollTrigger from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 export default {
   mounted() {
-    window.addEventListener("scroll", () => {
-      utils.throttle(() => {
-        utils.handleScrollAnimation(document.querySelector(".title-scroll"), 75, this.animate, this.reset);
-      }, 250);
-    });
-  },
-  methods: {
-    animate() {
-      gsap.to("#underline", {
-        x: 150,
-        opacity: 1,
-        duration: 1,
-        repeatRefresh: true
-      })
-      gsap.to("#overline", {
-        x: 20,
-        opacity: 1,
-        duration: 1,
-        repeatRefresh: true
-      })
-      gsap.to("#title", {
-        x: 10,
-        duration: 1,
-      })
-    },
-    reset() {
-      gsap.to("#underline", {
-        x: 0,
-        opacity: 0,
-        duration: 1,
-        repeatRefresh: true
-      })
-      gsap.to("#overline", {
-        x: 0,
-        opacity: 0,
-        duration: 1,
-        repeatRefresh: true
-      })
-    }
+    gsap.to("#concept-underline", {
+      x: 150,
+      opacity: 1,
+      duration: 1,
+      repeatRefresh: true,
+      scrollTrigger: "#concept-title"
+    })
+    gsap.to("#concept-overline", {
+      x: 20,
+      opacity: 1,
+      duration: 1,
+      repeatRefresh: true,
+      scrollTrigger: "#concept-title"
+    })
+    gsap.to("#concept-title", {
+      x: 10,
+      duration: 1,
+      scrollTrigger: "#concept-title"
+    })
   }
 }
 </script>
