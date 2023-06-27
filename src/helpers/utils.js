@@ -19,4 +19,14 @@ export default {
       resetFunc();
     }
   },
+  throttle(callback, time) {
+    var throttleTimer;
+    if (throttleTimer) return;
+
+    throttleTimer = true;
+    setTimeout(() => {
+      callback();
+      throttleTimer = false;
+    }, time);
+  },
 }

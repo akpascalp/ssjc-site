@@ -14,9 +14,11 @@ import utils from '@/helpers/utils';
 
 export default {
   mounted() {
-    window.addEventListener('scroll', () => {
-      utils.handleScrollAnimation(document.querySelector(".title-scroll"), 75, this.animate, this.reset);
-    })
+    window.addEventListener("scroll", () => {
+      utils.throttle(() => {
+        utils.handleScrollAnimation(document.querySelector(".title-scroll"), 75, this.animate, this.reset);
+      }, 250);
+    });
   },
   methods: {
     animate() {
