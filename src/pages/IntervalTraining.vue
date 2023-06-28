@@ -22,7 +22,9 @@
   </div>
 
   <div>
-    <p class="text-[64px] pt-8 pb-8 pl-24">Interval Training</p>
+    <div class="pt-8 pb-8 pl-24">
+      <IntervalTraining />
+    </div>
     <div class="grid grid-cols-2 pt-2">
       <p class="text-[16px] mx-20">
         <i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -114,12 +116,14 @@
 import Carousel from '@/components/Carousel.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
 import CallToAction from '@/components/CallToAction.vue';
+import IntervalTraining from '@/components/animatedTitles/IntervalTraining.vue';
 
 export default {
   components: {
     Carousel,
     PersonLayout,
-    CallToAction
+    CallToAction,
+    IntervalTraining
   },
   data() {
     return {
