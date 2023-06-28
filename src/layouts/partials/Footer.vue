@@ -33,7 +33,7 @@
             <router-link to="/judo">Judo</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
-            <router-link to="/bjj">BJJ</router-link>
+            <router-link to="/bjj">Brazilian Jiu-Jitsu</router-link>
           </div>
           <div class="hover:underline underline-offset-4">
             <router-link to="/shadow-judo">Shadow Judo</router-link>

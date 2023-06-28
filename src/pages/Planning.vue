@@ -111,7 +111,7 @@ export default {
       filters: {
         days: ["All", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
         levels: ["All", "Adults & Teens", "Kids"],
-        disciplines: ["All", "Judo", "BJJ", "Shadow Judo", "Taïso", "Interval Training"],
+        disciplines: ["All", "Judo", "Brazilian Jiu-Jitsu", "Shadow Judo", "Taïso", "Interval Training"],
       },
       categories: [{
         title: "Adults & Teens",

@@ -13,7 +13,7 @@ import LayoutDefault from '@/layouts/LayoutDefault.vue'
  */
 import Home from '@/pages/Home.vue'
 import Judo from '@/pages/Judo.vue'
-import BJJ from '@/pages/BJJ.vue'
+import BrazilianJiuJitsu from '@/pages/BrazilianJiuJitsu.vue'
 import ShadowJudo from '@/pages/ShadowJudo.vue'
 import Taiso from '@/pages/Taiso.vue'
 import IntervalTraining from '@/pages/IntervalTraining.vue'
@@ -43,9 +43,9 @@ export const routes = [
   }, {
     path: '/bjj',
     component: LayoutDefault,
-    meta: { title: 'BJJ' },
+    meta: { title: 'Brazilian Jiu-Jitsu' },
     children: [
-      { path: '', component: BJJ, name: 'bjj', meta: { title: 'BJJ' } },
+      { path: '', component: BrazilianJiuJitsu, name: 'bjj', meta: { title: 'Brazilian Jiu-Jitsu' } },
     ]
   }, {
     path: '/shadow-judo',

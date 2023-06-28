@@ -92,7 +92,7 @@ export default {
           'name': 'Judo',
           'to': '/judo'
         }, {
-          'name': 'BJJ',
+          'name': 'Brazilian Jiu-Jitsu',
           'to': '/bjj'
         }, {
           'name': 'Shadow Judo',

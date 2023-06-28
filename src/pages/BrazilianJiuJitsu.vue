@@ -7,7 +7,7 @@
       </svg>
     </div>
     <div class="absolute h-screen flex flex-col justify-center items-center">
-      <p class="text-[48px]">BJJ</p>
+      <p class="text-[48px]">Brazilian Jiu-Jitsu</p>
       <p class="text-[16px]">Scroll down to learn more</p>
     </div>
     <img src="/judo_bg.png" class="object-cover rounded" />
@@ -21,10 +21,12 @@
     <hr class="my-4 col-span-2">
   </div>
 
-  <!-- BJJ -->
+  <!-- Brazilian Jiu-Jitsu -->
 
   <div>
-    <p class="text-[64px] pt-8 pb-8 pl-24">BJJ</p>
+    <div class="pt-8 pb-8 pl-24">
+      <BrazilianJiuJitsu />
+    </div>
     <div class="grid grid-cols-2 pt-2">
       <p class="text-[16px] mx-20">
         <i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -127,12 +129,14 @@
 import Carousel from '@/components/Carousel.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
 import CallToAction from '@/components/CallToAction.vue';
+import BrazilianJiuJitsu from '@/components/animatedTitles/BrazilianJiuJitsu.vue';
 
 export default {
   components: {
     Carousel,
     PersonLayout,
-    CallToAction
+    CallToAction,
+    BrazilianJiuJitsu
   },
   data() {
     return {
