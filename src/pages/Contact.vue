@@ -1,6 +1,8 @@
 <template>
   <div class="px-12">
-    <p class="text-[48px] py-16">Get in Touch</p>
+    <div class="py-16">
+      <GetInTouch />
+    </div>
     <img src="/img_14.png" class="place-self-center pb-24" width="1200" />
 
     <div class="grid grid-cols-2 place-content-between">
@@ -63,8 +65,12 @@
 </template>
         
 <script>
+import GetInTouch from '@/components/animatedTitles/GetInTouch.vue';
 
 export default {
+  components: {
+    GetInTouch
+  },
   data() {
     return {
       fields: [

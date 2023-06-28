@@ -24,7 +24,9 @@
   <!-- Judo -->
 
   <div>
-    <p class="text-[64px] pt-8 pb-8 pl-24">Judo</p>
+    <div class="pt-8 pb-8 pl-24">
+      <Judo />
+    </div>
     <div class="grid grid-cols-2 pt-2">
       <p class="text-[16px] mx-20">
         <i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -98,7 +100,9 @@
   <!-- The Coaches -->
 
   <div>
-    <p class="text-[64px] pt-28 pb-24 pl-24">The Coaches</p>
+    <div class="pt-28 pb-24 pl-24">
+      <TheCoaches />
+    </div>
 
     <PersonLayout v-for="person in coaches" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
@@ -141,12 +145,16 @@
 import Carousel from '@/components/Carousel.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
 import CallToAction from '@/components/CallToAction.vue';
+import Judo from '@/components/animatedTitles/Judo.vue';
+import TheCoaches from '@/components/animatedTitles/TheCoaches.vue';
 
 export default {
   components: {
     Carousel,
     PersonLayout,
-    CallToAction
+    CallToAction,
+    Judo,
+    TheCoaches
   },
   data() {
     return {

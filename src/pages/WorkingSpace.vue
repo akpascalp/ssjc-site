@@ -1,6 +1,8 @@
 <template>
   <div class="px-24">
-    <p class="text-[64px] py-16">Working Space</p>
+    <div class="py-16">
+      <WorkingSpace />
+    </div>
     <img src="/img_7.png" class="place-self-center pb-24" width="1200" />
 
     <div class="grid grid-cols-2 pr-12">
@@ -23,7 +25,9 @@
     <div class="h-36"></div>
 
     <div>
-      <p class="text-[64px] pb-24">Work & Sport</p>
+      <div class="pb-24">
+        <WorkAndSport />
+      </div>
       <p class="text-[24px] text-[#7C7C7C] pb-24">Incorporating sports activities in the company's daily life can
         significantly
         improve the overall work environment. Physical and psychological benefits such as better posture, focus, team
@@ -56,7 +60,9 @@
     <div class="h-36"></div>
 
     <div>
-      <p class="text-[64px] pb-24">Our Dojo Coworkers</p>
+      <div class="pb-24">
+        <OurDojoCoworkers />
+      </div>
 
       <div v-for="coworker in coworkers" class="flex flex-col gap-y-6 pb-12">
         <hr class="pt-6" />
@@ -98,12 +104,18 @@
       
 <script>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
+import WorkingSpace from '@/components/animatedTitles/WorkingSpace.vue';
+import WorkAndSport from '@/components/animatedTitles/WorkAndSport.vue';
+import OurDojoCoworkers from '@/components/animatedTitles/OurDojoCoworkers.vue';
 
 export default {
   components: {
     Disclosure,
     DisclosureButton,
-    DisclosurePanel
+    DisclosurePanel,
+    WorkingSpace,
+    WorkAndSport,
+    OurDojoCoworkers
   },
   data() {
     return {

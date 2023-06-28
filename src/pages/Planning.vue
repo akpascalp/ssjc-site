@@ -2,7 +2,9 @@
   <div class="px-12">
     <div>
 
-      <p class="text-[64px] py-16 w-screen">The Planning & Tarification</p>
+      <div class="py-16 w-screen">
+        <ThePlanningAndTarification />
+      </div>
 
       <div class="flex gap-20">
         <div>
@@ -60,7 +62,9 @@
     <div class="h-36"></div>
 
     <div>
-      <p class="text-[64px] pb-20">Pricing System</p>
+      <div class="pb-20">
+        <PricingSystem />
+      </div>
       <div class="grid grid-cols-2">
         <p class="text-[16px] text-[#7C7C7C] mr-80">Our pricing system is divided into 3 different modes:</p>
         <div class="flex flex-col gap-8 justify-self-end">
@@ -80,7 +84,7 @@
         <div class="pt-24 mr-24 text-[#7C7C7C] text-[16px] pb-16">
           <p>
             We strive to provide maximum flexibility in our pricing system to cater to the needs and preferences of each
-            individual.<br/>
+            individual.<br />
             Please don't hesitate to reach out to us if you have any questions or need further information. We are excited
             to welcome you to Dojo House and support you on your journey.
           </p>
@@ -94,8 +98,14 @@
 </template>
           
 <script>
+import ThePlanningAndTarification from '@/components/animatedTitles/ThePlanningAndTarification.vue';
+import PricingSystem from '@/components/animatedTitles/PricingSystem.vue';
 
 export default {
+  components: {
+    ThePlanningAndTarification,
+    PricingSystem
+  },
   data() {
     return {
       filters: {

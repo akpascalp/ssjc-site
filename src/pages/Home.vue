@@ -120,7 +120,9 @@
     <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
       <img src="/img_4.png" class="pt-8 pb-8 pl-24" />
       <div class="col-span-2">
-        <p class="text-[64px] pt-4 pb-24">Judo</p>
+        <div class="pt-4 pb-24">
+          <Judo />
+        </div>
         <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
           "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
         </p>
@@ -155,7 +157,9 @@
   <!-- The Founders -->
 
   <div>
-    <p class="text-[64px] pt-28 pb-24 pl-24">The Founders</p>
+    <div class="pt-28 pb-24 pl-24">
+      <TheFounders />
+    </div>
 
     <PersonLayout v-for="person in founders" :title="person.name" :dataList="person.dataList"
       :descriptionText="person.descriptionText" :img="person.img" />
@@ -168,6 +172,8 @@ import Carousel from '@/components/Carousel.vue';
 import Bloc1 from '@/layouts/Bloc1.vue';
 import PersonLayout from '@/layouts/PersonLayout.vue';
 import OurConcept from '@/components/animatedTitles/OurConcept.vue';
+import Judo from '@/components/animatedTitles/Judo.vue';
+import TheFounders from '@/components/animatedTitles/TheFounders.vue';
 import TheMartialArtSchool from '@/components/animatedTitles/TheMartialArtSchool.vue';
 import CallToAction from '@/components/CallToAction.vue';
 
@@ -178,6 +184,8 @@ export default {
     PersonLayout,
     OurConcept,
     TheMartialArtSchool,
+    Judo,
+    TheFounders,
     CallToAction
   },
   data() {

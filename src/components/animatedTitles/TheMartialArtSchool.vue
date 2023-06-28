@@ -21,25 +21,25 @@ export default {
     gsap.to("#martial-underline", {
       x: 215,
       opacity: 1,
-      duration: 1,
+      duration: 1.5,
       repeatRefresh: true,
-      scrollTrigger: "#martial-title"
+      scrollTrigger: "#martial-title2"
     })
     gsap.to("#martial-overline", {
       x: 251,
       opacity: 1,
-      duration: 1,
+      duration: 1.5,
       repeatRefresh: true,
-      scrollTrigger: "#martial-title"
+      scrollTrigger: "#martial-title2"
     })
     gsap.to("#martial-title1", {
       x: 10,
       duration: 1,
-      scrollTrigger: "#martial-title1"
+      scrollTrigger: "#martial-title2"
     })
     gsap.to("#martial-title2", {
       x: 10,
-      duration: 1,
+      duration: 1.5,
       scrollTrigger: "#martial-title2"
     })
   }

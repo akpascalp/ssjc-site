@@ -1,6 +1,8 @@
 <template>
   <div class="px-12">
-    <p class="text-[64px] py-16">Social</p>
+    <div class="py-16">
+      <Social />
+    </div>
     <img src="/img_7.png" class="place-self-center pb-24" width="1200" />
 
     <div class="grid grid-cols-3 px-24">
@@ -36,8 +38,10 @@
     </div>
 
 
-    <div class="grid grid-cols-1 place-content-center pt-24 min-[1100px]:mx-64">
-      <p class="text-[48px] text-center">Our Vision</p>
+    <div class="grid grid-cols-1 place-items-center pt-24 min-[1100px]:mx-64">
+      <p class="">
+        <OurVision />
+      </p>
       <br />
       <p class="text-[24px] text-center pb-6 text-[#7C7C7C]">The Social Program:
         Our Vision’s Key Points</p>
@@ -62,7 +66,7 @@
 
     <Bloc1>
       <template #title>
-        <p class="text-[64px]">Helping those<br/>in needs</p>
+        <HelpingThoseInNeeds />
       </template>
       <template #text1>
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -90,11 +94,17 @@
 <script>
 import Carousel from '@/components/Carousel.vue';
 import Bloc1 from '@/layouts/Bloc1.vue';
+import Social from '@/components/animatedTitles/Social.vue';
+import OurVision from '@/components/animatedTitles/OurVision.vue';
+import HelpingThoseInNeeds from '@/components/animatedTitles/HelpingThoseInNeeds.vue';
 
 export default {
   components: {
     Carousel,
-    Bloc1
+    Bloc1,
+    Social,
+    OurVision,
+    HelpingThoseInNeeds
   },
   data() {
     return {
