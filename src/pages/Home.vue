@@ -4,16 +4,16 @@
       <source src="/test-video.mp4" type="video/mp4">
     </video> -->
     <img src="/img_1.png" class="h-screen w-screen object-cover" />
-    <p class="absolute top-[324px] left-[128px] text-[24px] text-white">A School Of Life</p>
-    <p class="absolute top-[356px] left-[128px] text-[48px] text-white">Dojo House of SSJC</p>
-    <p class="absolute bottom-[46px] left-[128px] text-[16px] text-white">Scroll down to learn more</p>
+    <p class="absolute top-[300px] left-12 sm:top-[324px] sm:left-[128px] text-[24px] text-white">A School Of Life</p>
+    <p class="absolute top-[356px] left-12 sm:left-[128px] text-[48px] text-white">Dojo House of SSJC</p>
+    <p class="absolute bottom-[140px] left-12 sm:left-[128px] sm:bottom-[46px] text-[16px] text-white">Scroll down to learn more</p>
   </div>
 
   <br class="py-6" />
 
   <!-- Our Concept -->
 
-  <div class="text-[16px] my-3 px-24 grid grid-cols-2">
+  <div class="text-[16px] my-3 px-4 sm:px-24 grid grid-cols-2">
     <p class="text-[#7C7C7C]">Introduction</p>
     <p class="justify-self-end">House of SSJC</p>
     <hr class="my-4 col-span-2">
@@ -45,14 +45,14 @@
     </Bloc1>
 
     <div class="grid grid-cols-3 pt-4 pb-16 mr-12 pl-12">
-      <img src="/img_2.png" class="col-start-2 col-span-2" />
+      <img src="/img_2.png" class="w-full col-span-3 sm:col-start-2 sm:col-span-2" />
     </div>
 
     <div class="pb-24">
-      <div class="bg-[#F6F6F6] mx-20 py-20 flex items-start">
-        <img src="/citation.png" class="mx-20" />
+      <div class="bg-[#F6F6F6] mx-2 sm:mx-20 py-20 flex flex-col items-center sm:items-start sm:flex-row">
+        <img src="/citation.png" class="pb-8 mx-20" />
         <div>
-          <p class="text-[20px] mr-20 text-center">
+          <p class="sm:text-[20px] sm:mr-20 text-center mx-2">
             “A dojo represents, in its very essence, an exceptional, energetic space: a sacred location.
             <br />
             It is still a place where we respect the moral values of judo and the tradition of the original martial art,
@@ -73,7 +73,7 @@
         </div>
       </div>
     </div>
-    <img src="/img_3.png" class="w-screen object-cover px-24 py-12" />
+    <img src="/img_3.png" class="w-screen object-cover px-2 sm:px-24 sm:py-12" />
   </div>
   <br class="py-6" />
 
@@ -117,17 +117,19 @@
   <!-- Judo -->
 
   <div>
-    <div class="grid grid-cols-3 pt-24 pb-96 bg-[#F6F6F6]">
-      <img src="/img_4.png" class="pt-8 pb-8 pl-24" />
+    <div class="grid grid-cols-3 py-4 sm:pt-24 pb-96 bg-[#F6F6F6]">
+      <img src="/img_4.png" class="pt-8 pb-8 pl-4 sm:pl-24" />
       <div class="col-span-2">
         <div class="pt-4 pb-24">
           <Judo />
         </div>
-        <p class="text-[24px] text-[#7C7C7C] pr-12 mr-12 pb-12">
+      </div>
+      <div class="grid col-span-3 px-2 sm:col-span-2 sm:col-start-2">
+        <p class="text-[24px] text-[#7C7C7C] sm:pr-12 sm:mr-12 pb-12">
           "The purpose of the study of judo is to perfect yourself and to contribute to society” Kano Jigoro
         </p>
         <hr class="py-6 pr-12" />
-        <p class="text-[16px] pr-16 pb-16 mr-12">
+        <p class="text-[16px] sm:pr-16 pb-16 sm:mr-12">
           Beyond being one of the most prestigious and universal Olympic disciplines, judo is more than a sport - it is
           also an acknowledged educational tool and a way of life enriched by a moral code and ethical values that have
           firmly withstood the trials of life.
@@ -137,14 +139,14 @@
           incompatible
           with procedures that would go against the spirit of the sport.
         </p>
-        <button class="btn-secondary">
+        <button class="btn-secondary justify-self-center sm:justify-self-start">
           Book A Session
         </button>
       </div>
     </div>
   </div>
 
-  <div class="flex place-content-center">
+  <div class="flex place-content-center px-2">
     <img src="/img_5.png" class="relative -top-64 -mb-48" width="972" />
   </div>
 

@@ -1,7 +1,7 @@
 <template>
-  <div class="grid pr-24">
-    <div class="grid grid-cols-2">
-      <div class="text-[36px] pl-24 w-3 font-[500]">{{ title }}
+  <div class="grid px-4 sm:pr-24">
+    <div class="sm:grid sm:grid-cols-2">
+      <div class="text-[36px] sm:pl-24 w-3 font-[500]">{{ title }}
       </div>
       <div>
         <div v-for="data in dataList">
@@ -9,7 +9,7 @@
           <hr class="pb-2">
         </div>
       </div>
-      <div class="text-[16px] pt-20 col-start-1 col-span-2 min-[1100px]:col-start-2">
+      <div class="text-[16px] justify-self-center pt-20 col-start-1 col-span-2 min-[1100px]:col-start-2">
         {{ descriptionText }}
       </div>
     </div>

@@ -2,15 +2,22 @@
   <footer class="bottom-0">
     <br class="py-12" />
     <div class="grid">
+      <button
+        class="fixed z-90 bottom-20 right-8 bg-gray-600 w-10 h-10 rounded-full drop-shadow-lg flex justify-center
+        items-center text-white text-xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300
+        sm:hidden"
+        @click="toTop">
+        ↑
+      </button>
       <button href="#" class="text-[16px] place-self-end m-6" @click="toTop"><b>Back to top</b></button>
     </div>
     <hr />
     <br class="py-20" />
 
-    <div class="pl-12 py-4 text-[16px]">
+    <div class="pl-2 sm:pl-12 py-4 text-[16px]">
       <img src="/DOJO.png" class="w-8" />
-      <div class="grid grid-cols-6 pt-6">
-        <div class="col-span-2 -mr-8">
+      <div class="flex flex-col gap-y-8 sm:grid sm:grid-cols-6 pt-6">
+        <div class="sm:col-span-2 sm:-mr-8">
           <p>
             Welcome to Dojo House, your family's ultimate destination for martial arts excellence. Step into a world where
             children and adults alike discover the power within. Our premier facility offers a harmonious blend of
