@@ -1,7 +1,7 @@
 <template>
   <div class="relative z-40">
-    <div class="fixed grid place-items-center w-[120px] h-screen inset-y-0 left-0 bg-white">
-      <button class="mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
+    <div class="fixed grid grid-flow-col w-96 h-16 items-center px-4 bg-white sm:justify-items-center sm:w-[120px] sm:h-screen sm:inset-y-0 sm:left-0 sm:grid-flow-row">
+      <button class="justify-self-start sm:justify-self-center sm:mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
         @click="showMenu = !showMenu">
         <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <span aria-hidden="true"
@@ -12,15 +12,15 @@
             :class="{ '-rotate-45': showMenu, ' translate-y-0.5': !showMenu }"></span>
         </div>
       </button>
-      <img src="/DOJO.png" />
-      <div class="grid grid-rows-2 place-content-end mt-48">
+      <img src="/DOJO.png" class="justify-self-center"/>
+      <div class="flex justify-self-end gap-2 pr-2 sm:grid-rows-2 sm:justify-self-center sm:mt-48 sm:grid">
         <button class="font-bold">EN</button>
         <button class="">VN</button>
       </div>
     </div>
   </div>
   <TransitionRoot as="template" :show="showMenu">
-    <Dialog as="div" class="fixed left-[120px] top-0 w-full z-30" @close="showMenu = false">
+    <Dialog as="div" class="fixed sm:left-[120px] top-0 w-full z-30" @close="showMenu = false">
       <TransitionChild as="template" enter="transition ease-in-out duration-700" enter-from="-translate-x-60 opacity-50"
         enter-to="translate-x-0" leave="transition ease-in-out duration-700" leave-from="translate-x-0"
         leave-to="-translate-x-60 opacity-0">

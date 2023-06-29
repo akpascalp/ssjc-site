@@ -1,12 +1,12 @@
 <template>
     <div class="flex flex-col h-full">
-        <div class="flex flex-1">
+        <div class="flex">
             <SiteSidebar />
-            <main class="pl-[120px] z-0 overflow-x-hidden">
+            <main class="sm:pl-[120px] z-0 overflow-x-hidden">
                 <router-view />
             </main>
         </div>
-        <SiteFooter class="pl-[120px]" />
+        <SiteFooter class="sm:pl-[120px]" />
     </div>
 </template>
 
