@@ -1,13 +1,13 @@
 <template>
-  <div class="px-24">
+  <div class="px-4 sm:px-24">
     <div class="py-16">
       <WorkingSpace />
     </div>
-    <img src="/img_7.png" class="place-self-center pb-24" width="1200" />
+    <img src="/img_7.png" class="place-self-center pb-8 sm:pb-24" width="1200" />
 
-    <div class="grid grid-cols-2 pr-12">
-      <div class="flex gap-y-24 flex-col col-start-2 -ml-20">
-        <p class="text-[16px] mr-48">The working space is an integral part of the Dojo House concept.
+    <div class="grid sm:grid-cols-2 sm:pr-12">
+      <div class="grid gap-y-8 sm:gap-y-24 flex-col sm:col-start-2 sm:-ml-20">
+        <p class="text-[16px] sm:mr-48">The working space is an integral part of the Dojo House concept.
           Indeed, throughout their respective careers, Benjamin and Soraya have always pursued their sports and
           professional
           paths in parallel, creating a fundamental balance in their development. The workspace allows its residents to
@@ -15,17 +15,17 @@
           on a daily basis in a unique environment while practicing a sport or discipline within the same place: Dojo
           House.
         </p>
-        <button class="btn-primary w-48">
+        <button class="btn-primary w-48 justify-self-center sm:justify-self-start">
           Contact Us
         </button>
         <img src="/img_3.png" />
       </div>
     </div>
 
-    <div class="h-36"></div>
+    <div class="h-12 sm:h-36"></div>
 
     <div>
-      <div class="pb-24">
+      <div class="pb-12 sm:pb-24">
         <WorkAndSport />
       </div>
       <p class="text-[24px] text-[#7C7C7C] pb-24">Incorporating sports activities in the company's daily life can
@@ -33,10 +33,10 @@
         improve the overall work environment. Physical and psychological benefits such as better posture, focus, team
         spirit, relaxation, and positivity contribute to employee well-being.
       </p>
-      <div class="grid grid-cols-2 pr-12 gap-24">
-        <img src="/img_12.png" class="w-3/4" />
-        <div class="flex gap-y-24 flex-col col-start-2">
-          <p class="text-[16px] mr-24">
+      <div class="grid sm:grid-cols-2 sm:pr-12 sm:gap-24">
+        <img src="/img_12.png" class="justify-self-center pb-12 sm:pb-0 sm:justify-self-start sm:w-3/4" />
+        <div class="grid gap-y-24 flex-col sm:col-start-2">
+          <p class="text-[16px] sm:mr-24">
             With the rise of "caring management," companies now prioritize their employees' wellness. Our project aims to
             bring the world of sports to the corporate setting.
             <br />
@@ -50,7 +50,7 @@
             At our organization, we believe in the transformative power of integrating work and sport, creating a
             harmonious and thriving environment for both employees and businesses.
           </p>
-          <button class="btn-primary w-56">
+          <button class="btn-primary w-56 justify-self-center sm:justify-self-start">
             Book A Session
           </button>
         </div>
@@ -87,11 +87,11 @@
             leave-to-class="transform opacity-0 -translate-y-8">
             <DisclosurePanel>
               <img :src="coworker.img" class="object-cover py-8" />
-              <div class="grid grid-cols-2 gap-y-8 gap-x-8 pr-8">
+              <div class="grid sm:grid-cols-2 gap-y-8 gap-x-8 pr-8">
                 <p v-if="coworker.subtitle" class="text-[24px] text-[#7C7C7C] pb-8">{{ coworker.subtitle }}</p>
-                <p class="text-[16px] mr-56 max-[1100px]:mr-4" :class="coworker.subtitle ? 'text-[#7C7C7C] col-start-1' : 'col-start-2'"> {{
+                <p class="text-[16px] mr-56 max-[1100px]:mr-4" :class="coworker.subtitle ? 'text-[#7C7C7C] col-start-1' : 'sm:col-start-2'"> {{
                   coworker.subtitle1 }}</p>
-                <div :class="coworker.subtitle ? 'text-[16px]' : 'text-[24px] text-[#7C7C7C]'" class="col-start-2"
+                <div :class="coworker.subtitle ? 'text-[16px]' : 'text-[24px] text-[#7C7C7C]'" class="sm:col-start-2"
                   v-html="coworker.subtitle2"></div>
               </div>
             </DisclosurePanel>
