@@ -16,21 +16,21 @@
 
   <br class="py-6" />
 
-  <div class="text-[16px] my-6 px-24 grid grid-cols-2">
+  <div class="text-[16px] my-6 px-4 sm:px-24 grid grid-cols-2">
     <p class="text-[#7C7C7C]">Introduction</p>
     <hr class="my-4 col-span-2">
   </div>
 
   <div>
-    <div class="pt-8 pb-8 pl-24">
+    <div class="pt-8 pb-8 pl-2 sm:pl-24">
       <IntervalTraining />
     </div>
-    <div class="grid grid-cols-2 pt-2">
-      <p class="text-[16px] mx-20">
+    <div class="grid px-4 pt-2 gap-y-4 sm:grid-cols-2 ">
+      <p class="text-[16px] sm:mx-20">
         <i>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua” ??</i>
       </p>
-      <div class="">
+      <div class="grid">
         <div class="text-[16px] pr-16 pb-16">
           <p>
           <p class="font-bold">What is Interval Training?</p>
@@ -67,7 +67,7 @@
         </div>
         <br>
         <br>
-        <button class="btn-primary">
+        <button class="btn-primary justify-self-center mt-16 sm:mt-0 sm:justify-self-start">
           Book A Session
         </button>
       </div>
@@ -81,12 +81,12 @@
   <br class="py-6" />
 
   <div class="relative">
-    <div class="relative bg-[#F6F6F6] pt-24 pb-80 grid justify-items-center gap-14 -bottom-40">
+    <div class="relative bg-[#F6F6F6] py-12 px-4 sm:pt-24 sm:pb-80 grid justify-items-center gap-2 sm:gap-14 sm:-bottom-40">
       <img src="/citation.png" class="w-4" />
       <div class="text-[16px]">
         Dojo House of SSJC
       </div>
-      <div class="text-[36px] w-1/3 text-center">
+      <div class="text-[36px] sm:w-1/3 text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua
       </div>
@@ -96,13 +96,13 @@
 
   <Carousel :images="images" />
 
-  <div class="py-8" />
+  <div class="sm:py-8" />
 
   <div class="text-[16px] pl-80 max-[1130px]:px-6 w-4/5">
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   </div>
 
   <div class="py-12" />
