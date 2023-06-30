@@ -20,13 +20,13 @@
     </div>
   </div>
   <TransitionRoot as="template" :show="showMenu">
-    <Dialog as="div" class="fixed sm:left-[120px] top-0 w-full z-30" @close="showMenu = false">
+    <Dialog as="div" class="fixed top-10 w-full z-30 sm:top-0 sm:left-[120px]" @close="showMenu = false">
       <TransitionChild as="template" enter="transition ease-in-out duration-700" enter-from="-translate-x-60 opacity-50"
         enter-to="translate-x-0" leave="transition ease-in-out duration-700" leave-from="translate-x-0"
         leave-to="-translate-x-60 opacity-0">
-        <div class="relative grid grid-cols-2 bg-white">
+        <div class="grid grid-cols-2 bg-white">
           <div class="relative flex flex-col flex-1">
-            <div class="sticky top-0 left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
+            <div class="left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
               <div v-for="(menu, index) in menus" class="group" @mouseover="displayedIndex = index">
                 <div v-if="menu.name === '_break'">
                   <div class="m-80" />
@@ -53,7 +53,7 @@
                     enter-from="-translate-x-20 opacity-0" enter-to="translate-x-0 opacity-100"
                     leave="transition ease-in-out duration-300" leave-from="translate-x-0 opacity-100"
                     leave-to="-translate-x-20 opacity-0" :show="displayedSubIndex === index">
-                    <div class="absolute lg:ml-72 md:ml-48 space-y-4">
+                    <div class="absolute ml-40 lg:ml-72 md:ml-48 space-y-4">
                       <button v-for="subMenu in menu.subMenu" class="text-[16px] w-56 text-left">
                         <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                       </button>
@@ -63,7 +63,7 @@
               </div>
             </div>
           </div>
-          <img src="/img_menu.png" class="pr-20 bg-contain bg-center" />
+          <img src="/img_menu.png" class="hidden sm:block pr-20 bg-contain bg-center" />
         </div>
       </TransitionChild>
 
