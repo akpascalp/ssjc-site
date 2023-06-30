@@ -159,7 +159,7 @@
   <!-- The Founders -->
 
   <div>
-    <div class="pt-28 pb-24 pl-24">
+    <div class="pt-28 pb-24 pl-2 sm:pl-24">
       <TheFounders />
     </div>
 

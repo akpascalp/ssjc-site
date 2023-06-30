@@ -14,7 +14,7 @@
     <hr />
     <br class="py-20" />
 
-    <div class="pl-2 sm:pl-12 py-4 text-[16px]">
+    <div class="px-4 sm:pl-12 py-4 text-[16px]">
       <img src="/DOJO.png" class="w-8" />
       <div class="flex flex-col gap-y-8 sm:grid sm:grid-cols-6 pt-6">
         <div class="sm:col-span-2 sm:-mr-8">

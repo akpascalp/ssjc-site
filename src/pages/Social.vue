@@ -1,13 +1,13 @@
 <template>
-  <div class="px-12">
+  <div class=" px-4 sm:px-12">
     <div class="py-16">
       <Social />
     </div>
     <img src="/img_7.png" class="place-self-center pb-24" width="1200" />
 
-    <div class="grid grid-cols-3 px-24">
+    <div class="grid sm:grid-cols-3 sm:px-24">
       <p class="text-[36px]">Sponsoring</p>
-      <p class="text-[16px] col-span-2 pl-24">Why should you sponsor us?
+      <p class="text-[16px] sm:col-span-2 sm:pl-24">Why should you sponsor us?
         <br />
         Sponsoring the Dojo House will allow kids in precarious conditions to learn a martial art with great values and
         will
@@ -17,7 +17,7 @@
         The sponsors will also help the Dojo House to achieve this goal.
       </p>
 
-      <div class="text-[16px] col-span-2 col-start-2 pl-24">
+      <div class="text-[16px] sm:col-span-2 sm:col-start-2 sm:pl-24">
         <br />
         <p class="text-[28px] pb-3">Sponsoring Benefits</p>
         A company's contribution as a sponsor will:
