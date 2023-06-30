@@ -26,10 +26,10 @@
         leave-to="-translate-x-60 opacity-0">
         <div class="grid grid-cols-2 bg-white">
           <div class="relative flex flex-col flex-1">
-            <div class="left-20 flex flex-col h-screen inset-y-0 ml-24 my-24 space-y-4">
+            <div class="flex flex-col h-screen inset-y-0 ml-14 my-24 space-y-4 sm:ml-24">
               <div v-for="(menu, index) in menus" class="group" @mouseover="displayedIndex = index">
                 <div v-if="menu.name === '_break'">
-                  <div class="m-80" />
+                  <div class="m-60" />
                 </div>
                 <button v-else class="text-[16px] text-black text-left flex relative" @click="showMenu = false">
                   <div class="transition ease-in-out duration-100" @mouseover="displayedSubIndex = null"
@@ -53,7 +53,7 @@
                     enter-from="-translate-x-20 opacity-0" enter-to="translate-x-0 opacity-100"
                     leave="transition ease-in-out duration-300" leave-from="translate-x-0 opacity-100"
                     leave-to="-translate-x-20 opacity-0" :show="displayedSubIndex === index">
-                    <div class="absolute ml-40 lg:ml-72 md:ml-48 space-y-4">
+                    <div class="absolute ml-48 lg:ml-72 md:ml-48 space-y-4">
                       <button v-for="subMenu in menu.subMenu" class="text-[16px] w-56 text-left">
                         <router-link :to="subMenu.to">{{ subMenu.name }}</router-link>
                       </button>

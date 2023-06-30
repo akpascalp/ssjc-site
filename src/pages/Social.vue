@@ -32,7 +32,7 @@
       </div>
     </div>
 
-    <div class="flex gap-24 pt-24 h-[600px] place-content-center">
+    <div class="flex flex-col pt-12 gap-12 place-content-center sm:flex-row sm:gap-24 sm:pt-24 sm:h-[600px]">
       <img src="/img_12.png" />
       <img src="/img_3.png" />
     </div>

@@ -1,11 +1,11 @@
 <template>
-  <div class="px-12">
+  <div class="px-4 sm:px-12">
     <div class="py-16">
       <GetInTouch />
     </div>
     <img src="/img_14.png" class="place-self-center pb-24" width="1200" />
 
-    <div class="grid grid-cols-2 place-content-between">
+    <div class="grid gap-y-8 sm:grid-cols-2 place-content-between">
       <div>
         <p class="text-[24px] pb-8">Dojo House of SSJC</p>
         <p class="text-[16px] text-[#7C7C7C] underline">17 Đường Số 16, Thảo Điền, Quận 2,<br />
@@ -14,7 +14,7 @@
           <a href="https://maps.google.com/" class="text-blue-500">(View on map)</a>
         </p>
       </div>
-      <div class="ml-28">
+      <div class="sm:ml-28">
         <p class="text-[24px] pb-8">Opening Hours</p>
         <div class="grid grid-rows-4 grid-flow-col gap-1 text-[16px] text-[#7C7C7C]">
           <p>Mon 8am-20:30pm</p>
@@ -48,14 +48,14 @@
           class="w-full border-0 border-b-2 border-gray-200 p-0 focus:ring-gray-100 active:ring-gray-100">
       </div>
 
-      <div class="my-8 grid grid-cols-2">
+      <div class="my-8 grid gap-y-8 sm:grid-cols-2">
         <div>
           <label class="pr-8">I'm interested in</label>
           <select class="p-4 pr-16 border-[#D2D2D2]">
             <option>Parents&Kids (2-3yo)</option>
           </select>
         </div>
-        <button class="btn-secondary justify-self-end w-56" :disabled=disabled>
+        <button class="btn-secondary justify-self-center sm:justify-self-end w-56" :disabled=disabled>
           Send
         </button>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-12">
+  <div class="px-4 sm:px-12">
     <div>
 
       <div class="py-16 w-screen">
