@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col h-full">
-        <div class="flex">
+    <div class="flex flex-col">
+        <div class="flex flex-col">
             <SiteSidebar />
             <main class="sm:pl-[120px] z-0 overflow-x-hidden">
                 <router-view />
