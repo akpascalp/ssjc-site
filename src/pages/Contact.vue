@@ -37,7 +37,7 @@
 
     <div class="grid grid-cols-2 pt-12 pb-8">
       <p class="text-[36px]">Contact Us</p>
-      <p class="text-[16px] text-[#7C7C7C] justify-self-end">All fields are required</p>
+      <p class="text-[16px] text-[#7C7C7C] justify-self-end place-self-center">All fields are required</p>
     </div>
 
     <form>

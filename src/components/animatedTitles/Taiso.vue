@@ -1,7 +1,7 @@
 <template>
   <svg width="900" height="100">
     <text x="0" y="65" class="text-[64px]" id="taiso-title">
-      Taiso
+      Taïso
     </text>
     <line x1="0" y1="75" x2="30" y2="75" stroke="black" stroke-width="5" opacity="0" id="taiso-underline" />
   </svg>
