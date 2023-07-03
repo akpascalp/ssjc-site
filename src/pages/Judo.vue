@@ -101,7 +101,7 @@
 
   <div>
     <div class="py-16 pl-2 sm:pb-24 sm:pt-28 sm:pl-24">
-      <!-- <TheCoaches /> -->
+      <TheCoaches />
     </div>
 
     <PersonLayout v-for="person in coaches" :title="person.name" :dataList="person.dataList"
