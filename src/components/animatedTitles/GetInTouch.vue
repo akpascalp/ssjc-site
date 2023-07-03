@@ -1,5 +1,5 @@
 <template>
-  <svg width="400" height="100">
+  <svg width="360" height="100">
     <text x="0" y="65" class="text-[64px]" id="touch-title">
       Get in Touch
     </text>
