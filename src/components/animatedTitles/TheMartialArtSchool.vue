@@ -1,5 +1,5 @@
 <template>
-  <svg width="400" height="200">
+  <svg width="370" height="200">
     <text x="0" y="65" class="text-[64px]" id="martial-title1">
       The Martial
     </text>

@@ -29,7 +29,7 @@
             <div class="flex flex-col h-screen inset-y-0 ml-14 my-24 sm:ml-24">
               <div v-for="(menu, index) in menus" class="group" @mouseover="displayedIndex = index">
                 <div v-if="menu.name === '_break'">
-                  <div class="m-60" />
+                  <div class="m-56" />
                 </div>
                 <button v-else class="text-[16px] text-black text-left flex relative my-3" @click="showMenu = false">
                   <div class="transition ease-in-out duration-100" @mouseover="displayedSubIndex = null"

@@ -1,6 +1,6 @@
 <template>
   <!-- FIXME v-if not working ? -->
-  <svg v-show="screenWidth < 900" width="455" height="245">
+  <svg v-show="screenWidth < 900" width="370" height="245">
     <text x="0" y="65" class="text-[64px]" id="planning-title-small1">
       The Planning
     </text>

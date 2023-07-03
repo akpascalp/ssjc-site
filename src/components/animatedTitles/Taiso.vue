@@ -1,5 +1,5 @@
 <template>
-  <svg width="900" height="100">
+  <svg width="200" height="100">
     <text x="0" y="65" class="text-[64px]" id="taiso-title">
       Taïso
     </text>
