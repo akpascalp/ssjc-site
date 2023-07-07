@@ -1,12 +1,15 @@
 <template>
-  <div class="relative h-screen">
+  <div class="h-screen text-white bg-[url('/img_1.png')] bg-cover">
     <!-- <video autoplay muted loop class="h-screen object-cover">
       <source src="/test-video.mp4" type="video/mp4">
     </video> -->
-    <img src="/img_1.png" class="h-screen w-screen object-cover" />
-    <p class="absolute top-[300px] left-12 sm:top-[324px] sm:left-[128px] text-[24px] text-white">A School Of Life</p>
-    <p class="absolute top-[356px] left-12 sm:left-[128px] text-[48px] text-white">Dojo House of SSJC</p>
-    <p class="absolute bottom-[140px] left-12 sm:left-[128px] sm:bottom-[46px] text-[16px] text-white">Scroll down to learn more</p>
+    <div class="flex flex-col h-screen ml-12 sm:ml-36">
+      <div class="flex flex-col grow justify-center pt-24">
+        <p class="text-[24px]">A School Of Life</p>
+        <p class="text-[48px]">Dojo House of SSJC</p>
+      </div>
+      <p class="text-[16px] pb-24">Scroll down to learn more</p>
+    </div>
   </div>
 
   <br class="py-6" />
