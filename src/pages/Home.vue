@@ -8,7 +8,7 @@
         <p class="text-[24px]">A School Of Life</p>
         <p class="text-[48px]">Dojo House of SSJC</p>
       </div>
-      <p class="text-[16px] pb-24">Scroll down to learn more</p>
+      <p class="text-[16px] pb-24 md:pb-12">Scroll down to learn more</p>
     </div>
   </div>
 
