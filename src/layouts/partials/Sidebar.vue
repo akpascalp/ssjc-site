@@ -1,19 +1,19 @@
 <template>
   <div class="relative z-40">
     <div class="sm:fixed grid grid-flow-col w-full h-16 items-center px-4 bg-white sm:justify-items-center sm:w-[120px] sm:h-screen sm:inset-y-0 sm:left-0 sm:grid-flow-row">
-      <button class="justify-self-start sm:justify-self-center sm:mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
+      <button class="justify-self-start sm:justify-self-center md:mb-0 lg:mb-48 w-10 h-10 relative focus:outline-none bg-[#B4B4B4]/[.1] rounded-[12px]"
         @click="showMenu = !showMenu">
         <div class="block w-5 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <span aria-hidden="true"
             class="block absolute h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
             :class="{ 'rotate-45': showMenu, ' -translate-y-1.5': !showMenu }"></span>
           <span aria-hidden="true"
-            class="block absolute  h-0.5 w-5 bg-current transform  transition duration-500 ease-in-out"
+            class="block absolute  h-0.5 w-5 bg-current transform transition duration-500 ease-in-out"
             :class="{ '-rotate-45': showMenu, ' translate-y-0.5': !showMenu }"></span>
         </div>
       </button>
       <img src="/DOJO.png" class="justify-self-center"/>
-      <div class="flex justify-self-end gap-2 pr-2 sm:grid-rows-2 sm:justify-self-center sm:mt-48 sm:grid">
+      <div class="flex justify-self-end gap-2 pr-2 sm:grid-rows-2 sm:justify-self-center md:mt-0 sm:grid lg:mt-48">
         <button class="font-bold">EN</button>
         <button class="">VN</button>
       </div>
