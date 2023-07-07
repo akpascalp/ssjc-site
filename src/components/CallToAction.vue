@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-[url('/img_6.png')] bg-contain bg-center bg-no-repeat h-96">
-    <p class="pl-72 mr-96 max-[1130px]:mr-16 max-[1130px]:pl-12 text-white text-[24px] pt-20 pb-12">
+  <div class="grid m-2 sm:h-96 content-start justify-items-center bg-[url('/img_6.png')] sm:bg-contain bg-center bg-no-repeat text-white">
+    <p class="relative pt-2 m-2 sm:w-5/12 text-[24px] sm:pt-24 sm:pb-12 sm:-ml-24 min-[2130px]:w-1/3 min-[2130px]:-ml-12">
       {{ text }}
+      <button class="sm:absolute sm:-bottom-16 sm:left-0 btn-secondary mb-2">
+        {{ btnText }}
+      </button>
     </p>
-    <button class="btn-secondary sm:ml-72 text-white px-16">
-      {{ btnText }}
-    </button>
   </div>
 </template>
 
@@ -27,11 +27,6 @@ export default {
       required: true
     }
   },
-  // computed: {  // FIXME not always working, why ??
-  //   bgUrlFull() {
-  //     return "bg-[url('" + this.bgUrl + "')]"
-  //   }
-  // }
 }
 </script>
 
