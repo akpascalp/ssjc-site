@@ -9,7 +9,7 @@
           <hr class="pb-2">
         </div>
       </div>
-      <div class="text-[16px] justify-self-center pt-20 col-start-1 col-span-2 min-[1100px]:col-start-2">
+      <div class="text-[16px] justify-self-center pt-20 pb-12 col-start-1 col-span-2 min-[1100px]:col-start-2">
         {{ descriptionText }}
       </div>
     </div>
