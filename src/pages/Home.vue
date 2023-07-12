@@ -47,11 +47,13 @@
       <template #button>Book A Session</template>
     </Bloc1>
 
-    <div class="grid grid-cols-3 pb-16 mr-20 pl-12">
+    <div class="grid grid-cols-3 mr-20 pl-12">
       <img src="/img_2.png" class="w-full col-span-3 sm:col-start-2 sm:col-span-2" />
     </div>
 
-    <div class="pb-24">
+    <div class="pb-20"></div>
+
+    <div>
       <div class="bg-[#F6F6F6] mx-2 sm:mx-20 py-20 flex flex-col items-center sm:items-start sm:flex-row">
         <img src="/citation.png" class="pb-8 mx-20" />
         <div>
@@ -76,9 +78,11 @@
         </div>
       </div>
     </div>
-    <img src="/img_3.png" class="w-screen object-cover px-2 sm:px-20 sm:py-12" />
+    <div class="pb-20"></div>
+    <img src="/img_3.png" class="w-screen object-cover px-2 sm:px-20" />
   </div>
-  <br class="py-6" />
+
+  <div class="pb-20"></div>
 
   <!-- The Martial Art School -->
 
@@ -115,7 +119,7 @@
     <Carousel :images="images" />
   </div>
 
-  <br class="py-6" />
+  <div class="pb-20"></div>
 
   <!-- Judo -->
 
@@ -149,20 +153,20 @@
     </div>
   </div>
 
-  <div class="flex place-content-center px-2">
-    <img src="/img_5.png" class="relative -top-64 -mb-48" width="972" />
+  <div class="flex place-content-center">
+    <img src="/img_5.png" class="relative -top-64 -mb-48" width="1162" />
   </div>
 
   <CallToAction
     text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
     btnText="Contact Us" bgUrl="/img_6.png" />
 
-  <br class="py-6" />
+  <div class="pb-20"></div>
 
   <!-- The Founders -->
 
   <div>
-    <div class="pt-28 pb-24 pl-2 sm:pl-24">
+    <div class="pt-20 pb-24 pl-2 sm:pl-24">
       <TheFounders />
     </div>
 

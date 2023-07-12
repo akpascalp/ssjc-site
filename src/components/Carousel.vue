@@ -25,7 +25,7 @@
       </button>
     </div>
   </div>
-  <div class="carousel-indicator">
+  <div class="carousel-indicator pt-8">
     <span v-for="(image, index) in images" :key="index" class="indicator-dot"
       :class="(index === current) ? 'active' : ''" @click="goToImage(index)"></span>
   </div>
@@ -97,8 +97,8 @@ export default {
 }
 
 .indicator-dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: #ccccccbf;
   margin: 0 4px;
