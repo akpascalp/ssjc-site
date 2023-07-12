@@ -1,5 +1,5 @@
 <template>
-  <div class="py-4">
+  <div class="pt-4 pb-20">
     <div class="pt-2 pb-4 pl-2 sm:pl-24">
       <slot name="title" />
     </div>
