@@ -47,7 +47,7 @@
       <template #button>Book A Session</template>
     </Bloc1>
 
-    <div class="grid grid-cols-3 pt-4 pb-16 mr-12 pl-12">
+    <div class="grid grid-cols-3 pb-16 mr-20 pl-12">
       <img src="/img_2.png" class="w-full col-span-3 sm:col-start-2 sm:col-span-2" />
     </div>
 
@@ -55,7 +55,7 @@
       <div class="bg-[#F6F6F6] mx-2 sm:mx-20 py-20 flex flex-col items-center sm:items-start sm:flex-row">
         <img src="/citation.png" class="pb-8 mx-20" />
         <div>
-          <p class="sm:text-[20px] sm:mr-20 text-center mx-2">
+          <p class="sm:text-[20px] sm:mr-20 text-left mx-2">
             “A dojo represents, in its very essence, an exceptional, energetic space: a sacred location.
             <br />
             It is still a place where we respect the moral values of judo and the tradition of the original martial art,
@@ -76,7 +76,7 @@
         </div>
       </div>
     </div>
-    <img src="/img_3.png" class="w-screen object-cover px-2 sm:px-24 sm:py-12" />
+    <img src="/img_3.png" class="w-screen object-cover px-2 sm:px-20 sm:py-12" />
   </div>
   <br class="py-6" />
 

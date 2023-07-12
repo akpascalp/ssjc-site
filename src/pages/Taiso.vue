@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex h-screen bg-white justify-center text-white">
+  <div class="relative flex h-screen bg-white justify-center text-white p-6">
     <div class="absolute w-4/5 flex flex-col items-center pt-8">
       <p class="text-[16px] justify-self-center">House of SSJC</p>
       <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
